@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inchei Chan</title>
+
+    <link rel="icon shortcut" type="image/ico" href="favicon.ico">
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+    <script src="assets/scripts/echarts.min.js"></script>
+    <script src="assets/scripts/scroll.js"></script>
+    <script src="assets/scripts/typed.js"></script>
+    <script src="assets/scripts/chaffle.min.js"></script>
+    <script src="assets/scripts/smoothscroll.min.js"></script>
+
+    <script src='assets/scripts/nprogress.js'></script>
+    <link rel='stylesheet' href='assets/styles/nprogress.css'/>
+    <script>
+      $(document).ready(function(){  
+        NProgress.start();  
+      });  
+      $(window).load(function(){  
+        NProgress.done();  
+      });
+    </script>
+
+    <meta name="HandheldFriendly" content="true">
+    <meta name="theme-color" content="#91AD70">
+</head>
+
+<body>
+    
+<main>
+    <center>
+        <div id="banner">Inchei <span id="spb"></span></div>
+        <script>
+            $(function() {
+                $("#spb").typed({
+                    strings: ["Chan", "Student", "INT/FP", "Otaku", ".github.io"],
+                    typeSpeed: 100,
+                    loop: false,
+                    startDelay: 0
+                });
+            });
+        </script>
+        <ul>
+            <li>
+                <a data-chaffle="en" href="blog">/blog</a>
+            </li>
+            <li>
+                <a data-chaffle="en" href="work">/work</a>
+            </li>
+            <li>
+                <a data-chaffle="en" href="lab">/lab</a>
+            </li>
+        </ul>
+        <a href="javascript:" id="more">MORE</a>
+    </center>
+</main>
+<footer>
+    <article id="about">
+        <h1>BIO.</h1>
+        <p>A senior 1 student from south of the Yangtze.</p>
+        <p>Interested in programming, photography (but without a SLR camera), typography and so on. Also, I'm fond of Japanese anime and the band Soutaiseiriron (<span lang="ja"><a href="http://mirairecords.com/stsr/" title="official website">相対性理論</a></span>).</p>
+        <p>As a matter of fact, the pronounciation of "inchei" should be [ˈ<em>t</em>iŋkei] just like my name in real life pronounced in Cantonese. To meet Chinese <span lang="zh-Hant">"茵陳"</span>, which means wormwood, a fallen star in <i>Revelation</i>, it was transformed into what it is like now.</p>
+    </article>
+    <article>
+        <h1>PROGRAMMING</h1>
+        <p>I have a father who is a software engineer. However, he never taught me about programming, and I became interested in it by myself. Because of this, I'm capable of HTML and CSS for they're easy to learn.</p>
+        <p>And as the policy years ago didn't allow me to go to a proper school, I have no chance to take part in any algorithm competition. I'm trying to learn about it on my own, though I'm still weak at it at present.</p>
+        <div id="abili-chart" style="width: 100%; height: 10em; font-size: 100%;"></div>
+        <script>
+        var dom = document.getElementById("abili-chart");
+        var myChart = echarts.init(dom);
+        var app = {};
+        option = null;
+
+        option = {
+            textStyle: {
+                fontFamily: 'serif',
+                color: 'rgba(255, 255, 255, .8)'
+            },
+            color: ['#91AD70'],
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: ['HTML/CSS', 'Javascript', 'Python','PHP', 'Shell', 'C', 'C++', 'Arduino'],
+                axisTick: {
+                    alignWithLabel: true
+                }
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                type: 'bar',
+                barWidth: '60%',
+                data: [90, 50, 20, 20, 30, 10, 10, 15]
+            }]
+        };;
+        if (option && typeof option === "object") {
+            myChart.setOption(option, true);
+        }
+        </script>
+    </article>
+    <article>
+    <h1>CONTACT ME</h1>
+    <p>I'm active at <a href="https://bgm.tv/user/inchei" title="inchei">Bangumi</a> and <a href="https://douban.com/person/inchei" title="inchei">Douban</a> (though I don't like Douban) because I want to record the works I have enjoyed. Sometimes I contribute at <a href="https://github.com/inchei" title="inchei">GitHub</a> or <a href="https://zh.moegirl.org/user:iehcni" title="iehcni">Moegirl Pedia</a> just for fun.</p>
+    <p><a href="mailto:inchei@protonmail.com" title="inchei@protonmail.com">My email</a> is available as well.</p>
+    </article>
+</footer>
+<script>
+    var elements = document.querySelectorAll('[data-chaffle]');
+
+    Array.prototype.forEach.call(elements, function(el) {
+        var chaffle = new Chaffle(el)
+        el.addEventListener('mouseover', function() {
+            chaffle.init();
+        });
+    });
+</script>
+
+</body>
+<!--性格の悲喜劇といふものです。-->
+
+</html>

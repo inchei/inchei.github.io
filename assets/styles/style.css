@@ -1,0 +1,159 @@
+:root {
+    --m-color: #91AD70;
+}
+
+html {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+}
+
+::selection {
+    background: var(--m-color);
+    background: #91AD70;
+    color: #fff;
+}
+
+body {
+    background: #222 no-repeat fixed top;
+    padding: 0;
+    margin: 0;
+    font-family: "lustria", serif;
+    font-size: 24px;
+    background-size: cover;
+}
+
+article {
+    background: #000;
+    color: rgba(255, 255, 255, .8);
+    width: 45%;
+    margin: 0 calc((55% - 4em) / 2);
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 3px;
+    font-size: 20px
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+}
+
+main {
+    background: rgba(0, 0, 0, .35);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    padding-left: 10px;
+    border-left: .2em solid var(--m-color);
+    border-left: .2em solid #91AD70;
+}
+
+article a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: rgba(255, 255, 255, .8);
+}
+
+article a:hover {
+    color: var(--m-color);
+    color: #91AD70;
+    -moz-transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+#more {
+    font-size: 1.2em;
+    color: var(--m-color);
+    color: #91AD70;
+    text-decoration: none;
+    padding: 5px 8px;
+    display: inline-block;
+}
+
+#more::after {
+    content: "";
+    background: var(--m-color);
+    background: #91AD70;
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: width 300ms ease-in-out;
+}
+
+@media screen and (max-width: 740px) {
+    article {
+        width: calc(100% - 4em);
+        left: 0;
+        border-radius: 0;
+        margin: 0;
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+    article:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 447px) {
+    body {
+        font-size: 20px;
+    }
+    article {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 18px;
+    }
+    article {
+        font-size: 16px;
+    }
+}
+
+#banner {
+    margin: 4em 0;
+    font-size: 1.8em;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+#spb {
+    background: var(--m-color);
+    background: #91AD70;
+}
+
+li {
+    font-size: 1.2em;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+li a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+}
+
+#more:hover::after {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'lustria';
+    src: url(../font/Lustria-Regular.woff.ttf);
+}
