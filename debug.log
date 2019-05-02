@@ -1,0 +1,428 @@
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Writing database to C:\\Users\\inchei\\Documents\\GitHub\\hexo/db.json","time":"2019-05-02T00:43:52.408Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Hexo version: \u001b[35m3.8.0\u001b[39m","time":"2019-05-02T00:43:52.440Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Working directory: \u001b[35m~\\Documents\\GitHub\\hexo\\\u001b[39m","time":"2019-05-02T00:43:52.443Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Config loaded: \u001b[35m~\\Documents\\GitHub\\hexo\\_config.yml\u001b[39m","time":"2019-05-02T00:43:52.748Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-autoprefixer\u001b[39m","time":"2019-05-02T00:43:53.822Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-all-minifier\u001b[39m","time":"2019-05-02T00:43:55.128Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2019-05-02T00:43:55.269Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-front-matter\u001b[39m","time":"2019-05-02T00:43:55.273Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2019-05-02T00:43:55.282Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2019-05-02T00:43:55.291Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-feed\u001b[39m","time":"2019-05-02T00:43:55.301Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2019-05-02T00:43:55.307Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2019-05-02T00:43:55.315Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-pagination\u001b[39m","time":"2019-05-02T00:43:55.317Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2019-05-02T00:43:55.329Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-less\u001b[39m","time":"2019-05-02T00:43:55.500Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2019-05-02T00:43:55.513Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2019-05-02T00:43:55.518Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2019-05-02T00:43:55.678Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Loading database.","time":"2019-05-02T00:43:55.690Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Start processing","time":"2019-05-02T00:43:55.831Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2017-11-17-zhuangbi.md\u001b[39m","time":"2019-05-02T00:43:55.949Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2017-11-18-zou.md\u001b[39m","time":"2019-05-02T00:43:55.951Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2017-12-03-alumni.md\u001b[39m","time":"2019-05-02T00:43:55.952Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2017-12-23-Changan.md\u001b[39m","time":"2019-05-02T00:43:55.953Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2018-07-01-hexo-jekyll-ghpages.md\u001b[39m","time":"2019-05-02T00:43:55.955Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2018-08-18-roco.md\u001b[39m","time":"2019-05-02T00:43:55.956Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2018-09-02-branch-another-usage.md\u001b[39m","time":"2019-05-02T00:43:55.957Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/favicon.ico\u001b[39m","time":"2019-05-02T00:43:55.975Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/style.less\u001b[39m","time":"2019-05-02T00:43:55.976Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Theme config loaded.","time":"2019-05-02T00:43:56.048Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2019-05-02T00:43:56.053Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/Read Me.txt\u001b[39m","time":"2019-05-02T00:43:56.055Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/demo.html\u001b[39m","time":"2019-05-02T00:43:56.057Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/selection.json\u001b[39m","time":"2019-05-02T00:43:56.058Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/style.css\u001b[39m","time":"2019-05-02T00:43:56.059Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/img/algolia.svg\u001b[39m","time":"2019-05-02T00:43:56.061Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/img/azure.svg\u001b[39m","time":"2019-05-02T00:43:56.062Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/img/baidu.svg\u001b[39m","time":"2019-05-02T00:43:56.063Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/img/google.svg\u001b[39m","time":"2019-05-02T00:43:56.065Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/img/sidebar-bg.png\u001b[39m","time":"2019-05-02T00:43:56.066Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/js/app.js\u001b[39m","time":"2019-05-02T00:43:56.067Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/js/search.js\u001b[39m","time":"2019-05-02T00:43:56.068Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2019-05-02T00:43:56.081Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/js/jquery.js\u001b[39m","time":"2019-05-02T00:43:56.082Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/layout.ejs\u001b[39m","time":"2019-05-02T00:43:56.113Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/index.ejs\u001b[39m","time":"2019-05-02T00:43:56.115Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/page.ejs\u001b[39m","time":"2019-05-02T00:43:56.116Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/post.ejs\u001b[39m","time":"2019-05-02T00:43:56.117Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/demo-files/demo.css\u001b[39m","time":"2019-05-02T00:43:56.119Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/fonts/icomoon.eot\u001b[39m","time":"2019-05-02T00:43:56.121Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/fonts/icomoon.svg\u001b[39m","time":"2019-05-02T00:43:56.125Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/demo-files/demo.js\u001b[39m","time":"2019-05-02T00:43:56.127Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/fonts/icomoon.ttf\u001b[39m","time":"2019-05-02T00:43:56.129Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/icomoon/fonts/icomoon.woff\u001b[39m","time":"2019-05-02T00:43:56.130Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/archive.ejs\u001b[39m","time":"2019-05-02T00:43:56.219Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/article.ejs\u001b[39m","time":"2019-05-02T00:43:56.220Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/footer.ejs\u001b[39m","time":"2019-05-02T00:43:56.221Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/head.ejs\u001b[39m","time":"2019-05-02T00:43:56.222Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/header.ejs\u001b[39m","time":"2019-05-02T00:43:56.223Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/loading.ejs\u001b[39m","time":"2019-05-02T00:43:56.224Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/post.ejs\u001b[39m","time":"2019-05-02T00:43:56.224Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/scripts.ejs\u001b[39m","time":"2019-05-02T00:43:56.225Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_partial/sidebar.ejs\u001b[39m","time":"2019-05-02T00:43:56.226Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mlayout/_widget/tagcloud.ejs\u001b[39m","time":"2019-05-02T00:43:56.227Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35msource/img/avatar.png\u001b[39m","time":"2019-05-02T00:43:56.259Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\about\\index.md [ 1.32% saved]","time":"2019-05-02T00:43:56.543Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:43:56.641Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:43:56.643Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:43:56.644Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:43:56.645Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:43:56.646Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:43:56.647Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:43:56.648Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:43:56.650Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:43:57.369Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:43:57.370Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:43:57.371Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:43:57.372Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:43:57.373Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:43:57.526Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:44:19.954Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000\u001b[24m . Press Ctrl+C to stop.","time":"2019-05-02T00:44:19.960Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Database saved","time":"2019-05-02T00:44:19.983Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2019-05-02T00:44:56.245Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 4.01% saved]","time":"2019-05-02T00:44:56.295Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\page.ejs [ 0.00% saved]","time":"2019-05-02T00:44:56.309Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.72% saved]","time":"2019-05-02T00:44:56.412Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:44:56.427Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:44:56.437Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:44:56.444Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:44:56.457Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:44:56.480Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.91% saved]","time":"2019-05-02T00:44:56.546Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:44:56.951Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:44:57.230Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:44:57.879Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:44:58.474Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:45:15.134Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:45:15.700Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2019-05-02T00:45:31.338Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\about\\index.md [ 1.32% saved]","time":"2019-05-02T00:45:31.472Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:45:31.514Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:45:31.516Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:45:31.518Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:45:31.520Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:45:31.521Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:45:31.523Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:45:31.524Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:45:31.528Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:45:31.887Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:45:31.889Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:45:31.890Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:45:31.891Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:45:31.893Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:45:32.050Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2019-05-02T00:45:33.412Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 4.01% saved]","time":"2019-05-02T00:45:33.453Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\page.ejs [ 0.00% saved]","time":"2019-05-02T00:45:33.464Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.72% saved]","time":"2019-05-02T00:45:33.505Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:45:33.516Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:45:33.526Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:45:33.535Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:45:33.549Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:45:33.572Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.91% saved]","time":"2019-05-02T00:45:33.651Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:45:33.737Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:45:34.244Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:45:34.955Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:45:35.027Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:45:51.956Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:45:52.466Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:45:56.466Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2019-05-02T00:46:53.113Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\about\\index.md [ 1.27% saved]","time":"2019-05-02T00:46:53.240Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:46:53.266Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:46:53.268Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:46:53.270Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:46:53.271Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:46:53.272Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:46:53.275Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:46:53.276Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:46:53.278Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:46:53.505Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:46:53.507Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:46:53.507Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:46:53.508Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:46:53.559Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:46:53.692Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2019-05-02T00:46:55.411Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.87% saved]","time":"2019-05-02T00:46:55.436Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\page.ejs [ 0.00% saved]","time":"2019-05-02T00:46:55.449Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.72% saved]","time":"2019-05-02T00:46:55.475Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:46:55.484Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:46:55.489Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:46:55.495Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:46:55.509Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:46:55.524Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.90% saved]","time":"2019-05-02T00:46:55.599Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:46:55.670Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:46:56.080Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:46:56.750Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:46:56.818Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:47:16.910Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2019-05-02T00:47:26.732Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\about\\index.md [ 1.28% saved]","time":"2019-05-02T00:47:26.886Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:47:26.934Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:47:26.935Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:47:26.936Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:47:26.940Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:47:26.941Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:47:26.942Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:47:26.942Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:47:26.944Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:47:27.224Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:47:27.225Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:47:27.226Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:47:27.227Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:47:27.228Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:47:27.356Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2019-05-02T00:47:28.849Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.89% saved]","time":"2019-05-02T00:47:28.879Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\page.ejs [ 0.00% saved]","time":"2019-05-02T00:47:28.896Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.72% saved]","time":"2019-05-02T00:47:28.939Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:47:28.944Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:47:28.953Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:47:28.960Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:47:28.973Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:47:28.993Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.91% saved]","time":"2019-05-02T00:47:29.082Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:47:29.142Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:47:29.806Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:47:30.073Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:47:30.187Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:47:51.228Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:48:23.714Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:48:24.139Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2017/12/23/2017-12-23-Changan/index.html\u001b[39m","time":"2019-05-02T00:49:31.222Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 2.16% saved]","time":"2019-05-02T00:49:31.249Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:49:31.265Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.97% saved]","time":"2019-05-02T00:49:31.289Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:49:31.299Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 34.71% saved]","time":"2019-05-02T00:49:31.307Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:49:31.314Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:49:31.323Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:49:31.337Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.69% saved]","time":"2019-05-02T00:49:31.384Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:49:31.455Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:49:31.769Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:49:32.405Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:49:32.481Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2018/08/18/2018-08-18-roco/index.html\u001b[39m","time":"2019-05-02T00:49:46.327Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 5.40% saved]","time":"2019-05-02T00:49:46.339Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:49:46.344Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.98% saved]","time":"2019-05-02T00:49:46.373Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:49:46.384Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:49:46.391Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:49:46.397Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:49:46.406Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:49:46.416Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.97% saved]","time":"2019-05-02T00:49:46.461Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:49:46.536Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:49:46.963Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:49:47.116Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:49:47.187Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:50:58.389Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:50:58.391Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:50:58.393Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:50:58.394Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:50:58.395Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:50:58.397Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:50:58.398Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:50:58.401Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:50:58.574Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:50:58.576Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:50:58.657Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:50:58.658Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:50:58.659Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:50:58.808Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2019/09/02/2018-09-02-branch-another-usage/index.html\u001b[39m","time":"2019-05-02T00:51:02.102Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.48% saved]","time":"2019-05-02T00:51:02.120Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:51:02.128Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.40% saved]","time":"2019-05-02T00:51:02.152Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:51:02.160Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:51:02.166Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:51:02.179Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:51:02.186Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:51:02.200Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.83% saved]","time":"2019-05-02T00:51:02.246Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:51:02.326Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:51:02.668Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:51:03.300Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:51:03.349Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:51:23.669Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:51:37.425Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:51:37.715Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2018/07/01/2018-07-01-hexo-jekyll-ghpages/index.html\u001b[39m","time":"2019-05-02T00:52:14.298Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.55% saved]","time":"2019-05-02T00:52:14.312Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:52:14.321Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.60% saved]","time":"2019-05-02T00:52:14.340Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:52:14.346Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 35.01% saved]","time":"2019-05-02T00:52:14.355Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:52:14.359Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:52:14.370Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:52:14.385Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.84% saved]","time":"2019-05-02T00:52:14.443Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:52:14.510Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:52:14.848Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:52:15.388Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:52:15.427Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2017/12/23/2017-12-23-Changan/index.html\u001b[39m","time":"2019-05-02T00:53:04.164Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 2.16% saved]","time":"2019-05-02T00:53:04.207Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:53:04.228Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.97% saved]","time":"2019-05-02T00:53:04.267Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:53:04.277Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 34.71% saved]","time":"2019-05-02T00:53:04.290Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:53:04.297Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:53:04.313Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:53:04.328Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.69% saved]","time":"2019-05-02T00:53:04.409Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:53:04.476Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:53:04.874Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:53:05.396Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:53:05.498Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2017-12-23-Changan.md\u001b[39m","time":"2019-05-02T00:53:50.877Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\_posts\\2017-12-23-Changan.md [ 1.37% saved]","time":"2019-05-02T00:53:51.061Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:53:51.108Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:53:51.109Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:53:51.110Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:53:51.112Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:53:51.113Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:53:51.114Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:53:51.115Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:53:51.117Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:53:51.373Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:53:51.375Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:53:51.376Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:53:51.376Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:53:51.377Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:53:51.531Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2017/12/23/2017-12-23-Changan/index.html\u001b[39m","time":"2019-05-02T00:53:53.857Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 2.15% saved]","time":"2019-05-02T00:53:53.897Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:53:53.911Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.97% saved]","time":"2019-05-02T00:53:53.945Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:53:53.954Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 34.71% saved]","time":"2019-05-02T00:53:53.965Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:53:53.970Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:53:53.979Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:53:53.993Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.69% saved]","time":"2019-05-02T00:53:54.075Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:53:54.144Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:53:54.656Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:53:55.156Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:53:55.330Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:54:15.925Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35m_posts/2017-12-23-Changan.md\u001b[39m","time":"2019-05-02T00:54:30.019Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\_posts\\2017-12-23-Changan.md [ 1.37% saved]","time":"2019-05-02T00:54:30.141Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:54:30.161Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:54:30.163Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:54:30.164Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:54:30.166Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:54:30.167Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:54:30.168Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:54:30.170Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:54:30.171Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:54:30.330Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:54:30.332Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:54:30.334Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:54:30.335Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:54:30.373Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:54:30.518Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2018/07/01/2018-07-01-hexo-jekyll-ghpages/index.html\u001b[39m","time":"2019-05-02T00:54:41.204Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.55% saved]","time":"2019-05-02T00:54:41.227Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:54:41.243Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.60% saved]","time":"2019-05-02T00:54:41.266Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:54:41.276Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 35.01% saved]","time":"2019-05-02T00:54:41.283Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:54:41.287Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:54:41.300Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:54:41.322Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.84% saved]","time":"2019-05-02T00:54:41.384Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:54:41.578Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:54:42.135Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:54:42.406Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:54:42.519Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:54:54.449Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering post: \u001b[35m2019/09/02/2018-09-02-branch-another-usage/index.html\u001b[39m","time":"2019-05-02T00:55:01.835Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.48% saved]","time":"2019-05-02T00:55:01.852Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\post.ejs [ 0.00% saved]","time":"2019-05-02T00:55:01.864Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.40% saved]","time":"2019-05-02T00:55:01.881Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:55:01.887Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:55:01.898Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:55:01.902Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:55:01.911Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:55:01.926Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.83% saved]","time":"2019-05-02T00:55:01.960Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:55:02.007Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:55:02.287Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:55:02.817Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:55:02.880Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2019-05-02T00:55:40.357Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.89% saved]","time":"2019-05-02T00:55:40.374Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\page.ejs [ 0.00% saved]","time":"2019-05-02T00:55:40.383Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.72% saved]","time":"2019-05-02T00:55:40.397Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:55:40.403Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:55:40.409Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:55:40.432Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:55:40.439Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:55:40.452Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.91% saved]","time":"2019-05-02T00:55:40.495Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:55:40.548Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:55:40.855Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:55:41.290Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:55:41.343Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Processed: \u001b[35mabout/index.md\u001b[39m","time":"2019-05-02T00:56:47.922Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\source\\about\\index.md [ 1.38% saved]","time":"2019-05-02T00:56:48.045Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2019-05-02T00:56:48.071Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2019-05-02T00:56:48.072Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2019-05-02T00:56:48.074Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2019-05-02T00:56:48.075Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mfeed\u001b[39m","time":"2019-05-02T00:56:48.076Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2019-05-02T00:56:48.077Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2019-05-02T00:56:48.078Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2019-05-02T00:56:48.081Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/algolia.svg [ 58.60% saved]","time":"2019-05-02T00:56:48.219Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/azure.svg [ 36.58% saved]","time":"2019-05-02T00:56:48.221Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/baidu.svg [ 24.24% saved]","time":"2019-05-02T00:56:48.222Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/google.svg [ 4.14% saved]","time":"2019-05-02T00:56:48.223Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: icomoon/fonts/icomoon.svg [ 5.51% saved]","time":"2019-05-02T00:56:48.258Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/sidebar-bg.png [ 33.74% saved]","time":"2019-05-02T00:56:48.400Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering page: \u001b[35mabout/index.html\u001b[39m","time":"2019-05-02T00:56:50.899Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\article.ejs [ 3.62% saved]","time":"2019-05-02T00:56:50.924Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\page.ejs [ 0.00% saved]","time":"2019-05-02T00:56:50.931Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 8.72% saved]","time":"2019-05-02T00:56:50.951Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:56:50.958Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:56:50.964Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:56:50.973Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:56:50.981Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:56:50.995Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 0.89% saved]","time":"2019-05-02T00:56:51.037Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:56:51.092Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:56:51.499Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:56:52.000Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:56:52.100Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize IMG: img/avatar.png [ 0.64% saved]","time":"2019-05-02T00:57:12.038Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2019-05-02T00:58:13.131Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 12.67% saved]","time":"2019-05-02T00:58:13.147Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 13.52% saved]","time":"2019-05-02T00:58:13.158Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 11.62% saved]","time":"2019-05-02T00:58:13.165Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 13.33% saved]","time":"2019-05-02T00:58:13.177Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 13.43% saved]","time":"2019-05-02T00:58:13.183Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 13.57% saved]","time":"2019-05-02T00:58:13.193Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\post.ejs [ 13.29% saved]","time":"2019-05-02T00:58:13.201Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\archive.ejs [ 3.66% saved]","time":"2019-05-02T00:58:13.206Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\index.ejs [ 0.05% saved]","time":"2019-05-02T00:58:13.213Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\head.ejs [ 13.31% saved]","time":"2019-05-02T00:58:13.231Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\loading.ejs [ 4.86% saved]","time":"2019-05-02T00:58:13.236Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\header.ejs [ 40.00% saved]","time":"2019-05-02T00:58:13.243Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\footer.ejs [ 7.53% saved]","time":"2019-05-02T00:58:13.250Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\sidebar.ejs [ 26.49% saved]","time":"2019-05-02T00:58:13.260Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\_partial\\scripts.ejs [ 56.11% saved]","time":"2019-05-02T00:58:13.275Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize HTML: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\layout\\layout.ejs [ 1.11% saved]","time":"2019-05-02T00:58:13.327Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\icomoon\\style.css [ 21.91% saved]","time":"2019-05-02T00:58:13.395Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"Update Optimize CSS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\style.less [ 1.20% saved]","time":"2019-05-02T00:58:13.746Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\search.js [ 51.20% saved]","time":"2019-05-02T00:58:14.134Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"update Optimize JS: C:\\Users\\inchei\\Documents\\GitHub\\hexo\\themes\\element\\source\\js\\app.js [ 34.68% saved]","time":"2019-05-02T00:58:14.236Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":30,"msg":"See you again","time":"2019-05-02T00:58:40.396Z","v":0}
+{"name":"hexo","hostname":"Simple-PC","pid":4736,"level":20,"msg":"Database saved","time":"2019-05-02T00:58:40.486Z","v":0}
