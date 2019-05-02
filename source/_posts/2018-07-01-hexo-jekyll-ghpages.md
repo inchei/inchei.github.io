@@ -4,9 +4,6 @@ title: 單倉庫設置 hexo 和 Jekyll 在 gh-pages 子頁面下
 date: 2018-07-01
 tags: 瞎折騰
 cover_url: https://inchei.github.io/assets/img/jekyll-hexo.png
-cover_meta: >
-  Photo by [Inchei Chan](https://github.com/inchei)
-position: 100
 ---
 ## 前言
 <aside>實際上我害怕 WordPress 是在害怕沒錢支持服務器，等到初中瞭解了本地服務器后立馬試了一番。</aside>
@@ -43,5 +40,5 @@ Jekyll 可以和你自己編寫的網頁共存。這意味著：只要你把 Jek
 
 ## 演示
 倉庫請見：[https://github.com/inchei/inchei.github.io/](https://github.com/inchei/inchei.github.io/)
-* Jekyll: [https://inchei.github.io/blog](https://inchei.github.io/blog)
+* Jekyll: [https://inchei.github.io/blog](https://inchei.github.io/lab/jekyll)
 * Hexo: [https://inchei.github.io/lab/hexo](https://inchei.github.io/blog)
