@@ -1,5 +1,5 @@
 :root {
-    --m-color: #91AD70;
+    --m-color: #78C2C4;
 }
 
 html {
@@ -13,7 +13,7 @@ html::-webkit-scrollbar {
 
 ::selection {
     background: var(--m-color);
-    background: #91AD70;
+    background: #78C2C4;
     color: #fff;
 }
 
@@ -55,7 +55,7 @@ main {
 h1 {
     padding-left: 10px;
     border-left: .2em solid var(--m-color);
-    border-left: .2em solid #91AD70;
+    border-left: .2em solid #78C2C4;
 }
 
 article a {
@@ -66,7 +66,7 @@ article a {
 
 article a:hover {
     color: var(--m-color);
-    color: #91AD70;
+    color: #78C2C4;
     -moz-transition: all 400ms ease;
     -webkit-transition: all 400ms ease;
     -o-transition: all 400ms ease;
@@ -76,7 +76,7 @@ article a:hover {
 #more {
     font-size: 1.2em;
     color: var(--m-color);
-    color: #91AD70;
+    color: #78C2C4;
     text-decoration: none;
     padding: 5px 8px;
     display: inline-block;
@@ -85,7 +85,7 @@ article a:hover {
 #more::after {
     content: "";
     background: var(--m-color);
-    background: #91AD70;
+    background: #78C2C4;
     width: 0;
     height: 2px;
     display: block;
@@ -133,7 +133,7 @@ article a:hover {
 
 #spb {
     background: var(--m-color);
-    background: #91AD70;
+    background: #78C2C4;
 }
 
 li {
