@@ -9,7 +9,7 @@ navlevel: header
 ``090501`` 改爲 [hexo](https://hexo.io/)，使用魔改過後的 [element](https://artifact.me/) 主題，順便因此學會了一些 [less](http://lesscss.org/)、[Django](https://www.djangoproject.com/) 和某些 <abbr title="比如著重號和視差滾動背景之類的">CSS tricks</abbr>。大概是中考前最後一次用 GitHub 了。
 ``180810`` 合并伢子集和伢子棧（記錄技術文章<s>，雖然真實内容一點也不技術</s>）。
 ``180512`` 更改成 [kagami](https://github.com/kamikat/jekyll-theme-kagami) 主題，以省力地實現 tags 功能。
-``180317`` 由於 telegra.ph 日漸不穩定，搬遷至[github](https://github.com/inchei/inchei.github.io)上，使用自己<ruby>修<rp>（</rp><rt><del>魔</del></rt><rp>）</rp></ruby>改的 [layoon](https://github.com/poole/lanyon) 主題。
+``180317`` 由於 telegra.ph 日漸不穩定，搬遷至 [GitHub](https://github.com/inchei/inchei.github.io) 上，使用自己<ruby>修<rp>（</rp><rt><del>魔</del></rt><rp>）</rp></ruby>改的 [layoon](https://github.com/poole/lanyon) 主題。
 ``171117`` 使用 [telegra.ph](https://telegra.ph) 建立博客。
 
 ## FAQ
@@ -34,5 +34,6 @@ navlevel: header
 不好意思，還麻煩您到上方給過的[主頁鏈接](https://inchei.github.io/)裏找我的聯係方式私下評論。畢竟太過荒涼，評論區空著也太慘了<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif" />。
 
 ## 鳴謝
-編寫博客時，參考了以下上文未提及的開源項目：
+編寫博客時，參考或使用了以下上文未提及的開源項目：
 * [typo.css](https://typo.sofi.sh/)
+* [zooming](https://github.com/kingdido999/zooming)
