@@ -2,6 +2,7 @@
 layout: post
 title: 博客更了個新
 date: 2019-05-02
+updated: 2019-06-20
 tags: 瞎折騰
 cover_url: https://i.loli.net/2019/05/02/5cca627c6bf38.png
 ---
@@ -14,6 +15,10 @@ cover_url: https://i.loli.net/2019/05/02/5cca627c6bf38.png
 ## Logo
 Logo 跟之前一樣是來自《絕望先生》最後幾話裏出現的「自首標志」<span style="opacity: .3"><s>以示我還沒有忘記自己喜愛的東西</s></span>加以矢量化所得，不過這次發現原先圖標的尾巴太長，導致失去比例，只好剪掉了尾巴。於是我把完整的 logo 放上來吧。
 <img alt="自首標志" style="width: 300px;" src="https://i.loli.net/2019/05/02/5cca76d415ecf.png" />
+
+## 配色
+[NIPPON COLORS](http://nipponcolors.com/#mizuasagi) 真的是個好網站……
+![水淺葱](https://s2.ax1x.com/2019/06/20/Vx9Yxf.png)
 
 ## 一些 CSS 小玩意兒
 <span style="opacity: .3"><small><s>自從看了 B 站的《日常》最後一集字幕，我就變得特別喜歡用「小玩意兒」這個詞了<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif" /></s></small></span>
@@ -87,13 +92,13 @@ var cover = page.cover_url;
 ## 待辦事項
 還有一些小點子，還是忍住到中考結束後再實現吧！
 
-<aside class="right">這個應該是在[釀泉的博客](https://ioover.net/dev/rewrite-blog-4st/#%E5%90%8E%E5%8F%B0)看見的。</aside>
 1. 實現 yaml 設置更新日志和友情鏈接；
 2. 實現目錄功能；
 3. 修復 [zooming](https://github.com/kingdido999/zooming) 的功能，目前還有一些不明原因的問題；
 4. <span style="opacity: .3">嘗試快速輸入<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif" />的方法。</span>
-5. [Webfont](https://www.webfont.com/) 貌似有點 bug，所以停用了，待修復。
+5. [Webfont](https://www.webfont.com/) 貌似有點 bug，所以停用了，待修復；
+6. 用中文顯示日期的 hexo 插件。
 
 另外備注一下，不知爲何``<aside>``標簽放在標題下面的話就會出錯，目前只好避開這樣用了。
 
-那麽，下次更新，我也是 <mark>JK</mark> 了！<aside class="right">大概不是只有日本的女高中生才叫 JK？不明白啊（笑）！</aside>
+那麽，下次更新，我也是 <mark>JK</mark> 了！<aside>大概不是只有日本的女高中生才叫 JK？不明白啊（笑）！</aside>
