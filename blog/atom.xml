@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>伢子集</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://inchei.github.io/blog/"/>
+  <updated>2019-07-03T02:59:15.749Z</updated>
+  <id>https://inchei.github.io/blog/</id>
+  
+  <author>
+    <name>茵陳</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>於是又一個所謂 JK 誕生了</title>
+    <link href="https://inchei.github.io/blog/2019/06/20/a-new-jk/"/>
+    <id>https://inchei.github.io/blog/2019/06/20/a-new-jk/</id>
+    <published>2019-06-19T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.749Z</updated>
+    
+    <content type="html"><![CDATA[<p>中考結束了。考完化學的那一刻，我簡直想直接從椅子上蹦起來，然後放聲大笑。可是敢於這樣在公衆面前蛇精病的年齡已經過去了，所以我就使勁用手捏著臉，企圖控制住它上面要迸裂出來的笑容。同時，心裏也在突然間升起了懷疑：等到六月二十九日，我還能這麽笑著嗎？況且中考完全不是如此輕鬆的事情——回家一稱，BMI 竟然降到了普通標準以下，吃飯的胃口也沒有了。</p><p>想起了 S1 <a href="https://bbs.saraba1st.com/2b/thread-1336553-1-1.html" target="_blank" rel="noopener">吹吹病棟</a>裏面關於傘哥哥所謂「沒心沒肺的笑」的有趣<del>迫害</del>言論。又想笑自己，爬了好幾周吹吹樓，卻以中考為「藉口」連《利兹與青鳥》還沒有真正看過；但是我的心中確實是有了傘木希美的，那并不是武田綾乃或者山田尚子或者 S1 扭曲怪們的傘木，是我在心裏從他人口述裏捏造的一個形象——自然是扭曲的了。我最喜歡的就是「沒有才能」這一點，仿佛在撕裂自己的傷口似的喜歡。於是《利兹與青鳥》就變成了我的「金閣寺」。明天打算把這部從剛上映拖到現在的電影補掉，在那之後，我的傘木就再也沒有了。</p><p>與此同時要消失的，還有 JK 這個神奇的名詞。我永遠不曾想到過，自己會是一個自己曾經祇想遠觀而不願成爲的高中生，即便在幾個月前還在學習高中課程的時候也是如此；不久以前，我甚至還考慮著在十九歲時因爲什麽事故死去——這當然是無責任的，但長大似乎就不得不從「無責任」到「有責任」。我從未覺得高中生如何，可是當我自己成爲高中生，我便越發覺得自己的「衰老」。再也沒有少年天才，再也沒有恃才跋扈。學校沒有競賽的經驗，我們的班級是第一代；於是曾以爲必將走上的那些陽關大道，全都一個接一個黯淡下去，留下的祇有名爲「高考」的一條荊棘之路。</p><aside>説來慚愧，中考時還以這個為藍本寫的作文，不過不同的是在作文裏我仍是一名運動員，還不是作爲我從小憧憬的二傳手，而是一名主攻手；畢竟還是扣球時的心理容易描寫。</aside><p><i>這是必然的</i>，我想。首先擺在我面前的是一條運動員的路，但是我卻因爲一次跌倒回頭而行；然後是和老校的招生時間擦肩而過；在外來變故的影響下，也沒能追上同年九月份前生的西交大少年們的脚步；最近一次，還是戰戰兢兢沒有放棄提前學習高中課程，去像由崎星空一樣用迷之自信挑戰學區外的名校好班。</p><p>我以爲我的青春這樣就祇能失去光芒了。巧合，偷窥了<a href="http://blog.orzotl.com/1" target="_blank" rel="noopener">多年前賽老闆的博客</a>，竟然正是从初三開始写的。</p><blockquote><p>其实博客就像赛老板那样，只为自己而写、而看不就够了吗？每个人终究只是在写着自己，而一个过路人的偷窥，也是在他人中寻找自己。所以不必想着写什么，只要写，写就行了。这个想法，好像和前几天看完的《病隙碎笔》里的又相似了。<br>高中继续寄宿制，没法以赛老板一样的频率更新博客。不过这个博客衰微的年代里，还有着楼上那样无数的一篇博文式博客呢。只要自己能一直抱着这种心态写博客，我就满足了。</p></blockquote><p>腦子一熱，在班固米留下了這樣的話。受其感觸，甚至想再建一個 hexo 主題：那種單頁的、簡單得要死的甚至時間也不要的博客；不過還是形式而已，先在 GitHub 上建了個<a href="https://github.com/inchei/hexo-theme-single" target="_blank" rel="noopener">徒有表面的倉庫</a>，慢慢來。很囧的一件事是，上回把 hexo 源文件傳到 GitHub 上時竟整個主題文件夾沒有傳上去，祇好重新再改一回主題。</p><p>不管是博客還是生活，這個「尋找自己」的説法，異乎尋常地符合我的狀態。回頭，又看了一遍<a href="http://blog.dimpurr.com/fly-out/" target="_blank" rel="noopener">釘子中三時的博文</a>——不經意發現他已經許久不上博客了。無論是傘木、賽老闆或者釘子，這些我腦中的形象正在我眼前照明我的路——沒有鮮花、沒有掌聲的，一條狹長的路。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;中考結束了。考完化學的那一刻，我簡直想直接從椅子上蹦起來，然後放聲大笑。可是敢於這樣在公衆面前蛇精病的年齡已經過去了，所以我就使勁用手捏著臉，企圖控制住它上面要迸裂出來的笑容。同時，心裏也在突然間升起了懷疑：等到六月二十九日，我還能這麽笑著嗎？況且中考完全不是如此輕鬆的事情
+      
+    
+    </summary>
+    
+    
+      <category term="學校" scheme="https://inchei.github.io/blog/tags/%E5%AD%B8%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客更了個新</title>
+    <link href="https://inchei.github.io/blog/2019/05/02/blog-updated/"/>
+    <id>https://inchei.github.io/blog/2019/05/02/blog-updated/</id>
+    <published>2019-05-01T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.759Z</updated>
+    
+    <content type="html"><![CDATA[<p>初中生活馬上就要結束了。因爲進了所謂「銜接班」的緣故，大概體驗了一下「高中生活」，不過處於這個學校中，最終還是無法避免被各位初中部大佬們罵得狗血淋頭，然後低下頭回去準備中考。初二在寫《<a href="/blog/2017/12/23/2017-12-23-Changan/">長安行</a>》這一篇時，我就開始苦惱自己這份不緊不慢的性格是否到了該用力的中考也改變不了；現在看來，這學期前半段日子真是加劇了這個狀況。</p><p>我總要試著改變吧！這麽想著，決心做一點有點儀式感（？）的事情，然後開始中考。<s>明明是考生，這樣真的好嗎？</s>於是乎在五一假期裝修了一下博客。雖然是博客，但是很慙愧已經半年有餘沒有更新了，去年也是整整一年祇有三篇博客；即便沒有人看，也很不好意思自己把這博客丟在一邊。以下便簡述一下，權當博客凑數也是可以的。</p><p>此次更新，主要在於轉到了 <a href="https://hexo.io" target="_blank" rel="noopener">hexo</a>。其一是之前的 Jekyll 被我玩壞了，其二是在它沒被玩壞之前速度沒法<mark>差强人意</mark>。以 <a href="https://artifact.me/" target="_blank" rel="noopener">element</a> 主題為底，花費半天多的時間，進行了一定改動。<s>唔，我的效率真是慢。</s></p><h2 id="Logo"><a href="#Logo" class="headerlink" title="Logo"></a>Logo</h2><p>Logo 跟之前一樣是來自《絕望先生》最後幾話裏出現的「自首標志」<span style="opacity:.3"><s>以示我還沒有忘記自己喜愛的東西</s></span>加以矢量化所得，不過這次發現原先圖標的尾巴太長，導致失去比例，只好剪掉了尾巴。於是我把完整的 logo 放上來吧。<br><img alt="自首標志" style="width:300px" src="https://i.loli.net/2019/05/02/5cca76d415ecf.png"></p><h2 id="配色"><a href="#配色" class="headerlink" title="配色"></a>配色</h2><p><a href="http://nipponcolors.com/#mizuasagi" target="_blank" rel="noopener">NIPPON COLORS</a> 真的是個好網站……<br><img src="https://s2.ax1x.com/2019/06/20/Vx9Yxf.png" alt="水淺葱"></p><h2 id="一些-CSS-小玩意兒"><a href="#一些-CSS-小玩意兒" class="headerlink" title="一些 CSS 小玩意兒"></a>一些 CSS 小玩意兒</h2><p><span style="opacity:.3"><small><s>自從看了 B 站的《日常》最後一集字幕，我就變得特別喜歡用「小玩意兒」這個詞了<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif"></s></small></span></p><h3 id="視差滾動（Parallax-Scrolling）"><a href="#視差滾動（Parallax-Scrolling）" class="headerlink" title="視差滾動（Parallax Scrolling）"></a><ruby>視差滾動<rp>（</rp><rt>Parallax Scrolling</rt><rp>）</rp></ruby></h3><p>沉迷 CSS 時曾經十分向往的一個效果，現在隨便一想發現很是簡單，祇需要幾行就搞定了。簡單來説，就是固定背景，再加上一層可移動的罩層。效果見本頁頭。</p><aside>不過效果也很是簡陋呢。</aside><p></p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span><span class="selector-class">.cover</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">position</span>: fixed;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">31.4vh</span>;</span><br><span class="line">  <span class="attribute">z-index</span>: -<span class="number">3</span>;</span><br><span class="line">  <span class="attribute">object-fit</span>: cover;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-tag">div</span><span class="selector-class">.cover</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">999vh</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">-webkit-linear-gradient</span>(transparent 0, white 31.4vh);</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">-o-linear-gradient</span>(transparent 0, white 31.4vh);</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">-moz-linear-gradient</span>(transparent 0, white 31.4vh);</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(transparent 0, white 31.4vh);</span><br><span class="line">  <span class="attribute">z-index</span>: -<span class="number">2</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span></span></span><br><span class="line"><span class="tag"><span class="attr">var</span> <span class="attr">cover</span> = <span class="string">page.cover_url;</span></span></span><br><span class="line"><span class="tag">%&gt;</span></span><br><span class="line">&lt;% if (cover) &#123; %&gt;&lt;div class="cover"&gt;&lt;/div&gt;&lt;img class="cover" src=&lt;%= cover %&gt; /&gt;&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure><h3 id="著重號"><a href="#著重號" class="headerlink" title="著重號"></a>著重號</h3><p>本來想借用<a href="https://github.com/ethantw/Han" target="_blank" rel="noopener">漢字標準格式</a>的框架，但是其中很多需求我并不需要，<span style="opacity:.3">而且我想要宋體，</span>所以自己試著參考 <a href="https://typo.sofi.sh/" target="_blank" rel="noopener">typo.css</a> 仿製了一個。目前的問題在於，<em>沒有辦法適應不同大小的字</em>，但這也不太大礙，畢竟在標題使用著重號還是有點奇怪的。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">em</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  &amp;::after &#123;</span><br><span class="line">    <span class="selector-tag">position</span>: <span class="selector-tag">absolute</span>;</span><br><span class="line">    <span class="selector-tag">top</span>: 0<span class="selector-class">.65em</span>;</span><br><span class="line">    <span class="selector-tag">left</span>: 0;</span><br><span class="line">    <span class="selector-tag">width</span>: 100%;</span><br><span class="line">    <span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>;</span><br><span class="line">    <span class="selector-tag">white-space</span>: <span class="selector-tag">nowrap</span>;</span><br><span class="line">    <span class="selector-tag">color</span>: <span class="selector-tag">fade</span>(@<span class="keyword">material</span>-<span class="keyword">grey</span>, <span class="number">50%</span>);</span><br><span class="line">    <span class="selector-tag">font-family</span>: <span class="selector-tag">serif</span>;</span><br><span class="line">    <span class="selector-tag">font-weight</span>: 900;</span><br><span class="line">    content: "・・・・・・・・・・・・・・・・・・・・・・" //此處省略 n 個・;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="收穫"><a href="#收穫" class="headerlink" title="收穫"></a>收穫</h2><ol><li><a href="http://lesscss.org/" target="_blank" rel="noopener">less</a></li><li><a href="https://www.djangoproject.com/" target="_blank" rel="noopener">Django</a></li><li>hexo<br>這幾項大約能夠熟練掌握了。<s>雜學傢陳某某要誕生了。</s></li></ol><h2 id="待辦事項"><a href="#待辦事項" class="headerlink" title="待辦事項"></a>待辦事項</h2><p>還有一些小點子，還是忍住到中考結束後再實現吧！</p><ol><li>實現 yaml 設置更新日志和友情鏈接；</li><li>實現目錄功能；</li><li>修復 <a href="https://github.com/kingdido999/zooming" target="_blank" rel="noopener">zooming</a> 的功能，目前還有一些不明原因的問題；</li><li><span style="opacity:.3">嘗試快速輸入<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif">的方法。</span></li><li><a href="https://www.webfont.com/" target="_blank" rel="noopener">Webfont</a> 貌似有點 bug，所以停用了，待修復；</li><li>用中文顯示日期的 hexo 插件。</li></ol><p>另外備注一下，不知爲何<code>&lt;aside&gt;</code>標簽放在標題下面的話就會出錯，目前只好避開這樣用了。</p><p>那麽，下次更新，我也是 <mark>JK</mark> 了！</p><aside>大概不是只有日本的女高中生才叫 JK？不明白啊（笑）！</aside><p></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;初中生活馬上就要結束了。因爲進了所謂「銜接班」的緣故，大概體驗了一下「高中生活」，不過處於這個學校中，最終還是無法避免被各位初中部大佬們罵得狗血淋頭，然後低下頭回去準備中考。初二在寫《&lt;a href=&quot;/blog/2017/12/23/2017-12-23-Changan/
+      
+    
+    </summary>
+    
+    
+      <category term="瞎折騰" scheme="https://inchei.github.io/blog/tags/%E7%9E%8E%E6%8A%98%E9%A8%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分支的編外用法</title>
+    <link href="https://inchei.github.io/blog/2018/09/02/branch-another-usage/"/>
+    <id>https://inchei.github.io/blog/2018/09/02/branch-another-usage/</id>
+    <published>2018-09-01T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.709Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="廢話"><a href="#廢話" class="headerlink" title="廢話"></a>廢話</h2><aside>指以``.``開頭的配置文件。</aside><p>話説很久以前我在 GitHub 上創建了一個<a href="https://github.com/inchei/dotfiles" target="_blank" rel="noopener"><ruby>倉庫<rp>（</rp><rt>repository</rt><rp>）</rp></ruby></a>叫做「<ruby>層曡樣式表存檔<rp>（</rp><rt>CSS-Archieves</rt><rp>）</rp></ruby>」，本就是儲藏寫得太多的樣式表。折騰起 WSL 之後對於 Linux 的配置方式感到非常新奇，便把 <mark>dotfiles</mark> 也塞進了此倉庫中。經歷了多次改名，最後順著潮流直接叫做「dotfiles」了，寓意并非 dotfiles，硬要扯的話，應是其引申義「配置文件」。</p><p>然而順著潮流之後，令人苦惱的事情發生了—— GitHub 所顯示的語言并不是人見人愛的 shell 或者 vimscript，而是看上去便不太令人愉快的 CSS。</p><p>怎麽辦呢？我首先想到的是<code>.gitattributes</code>，便大筆一揮——</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*.css      shell</span><br></pre></td></tr></table></figure><p>這真是個糟糕的主意，因爲 GitHub 上的高亮系統會就照著<code>.gitattributes</code>去做，使得無辜的 CSS 面對高亮手足無措。</p><h2 id="分支（Branch）"><a href="#分支（Branch）" class="headerlink" title="分支（Branch）"></a><ruby>分支<rp>（</rp><rt>Branch</rt><rp>）</rp></ruby></h2><p>分支在 GitHub 中是用來幹什麽的呢？</p><p>我大約是可憐兮兮地查詢了根本一次也沒有看過的<a href="https://help.github.com/articles/about-branches/" target="_blank" rel="noopener">GitHub Help</a> ，其如是説：</p><blockquote><p>You can use branches to:</p><blockquote><p>Develop features</p><p>Fix bugs</p><p>Safely experiment with new ideas</p></blockquote></blockquote><p>想必大部分以 GitHub <ruby>鬧著玩<rp>（</rp><rt>折騰玩具項目</rt><rp>）</rp></ruby>的同志，見到這樣的描述便會認定：分支和我一點關係都沒有。</p><h2 id="腦洞"><a href="#腦洞" class="headerlink" title="腦洞"></a>腦洞</h2><p>最終，我覺得 CSS 和 dotfiles 這個稍微有點高級的詞匯實在不太搭得上邊，便思索新建一個分支存儲 CSS 文件。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">// 我甚至查了文檔，因爲根本沒有好好學過 git(bgm38)。</span><br><span class="line">git checkout -b stylesheets</span><br><span class="line">// 轉移 CSS 内容至備份文件夾内</span><br><span class="line">rm -rf</span><br><span class="line">// 轉移 CSS 内容回該文件夾</span><br><span class="line">git add .</span><br><span class="line">...</span><br></pre></td></tr></table></figure><p>驚喜發生了！</p><p><img src="https://i.loli.net/2018/09/02/5b8bd2ce5e5ee.png" alt="變成沒有 CSS 了"></p><aside>指奔走相告，此乃本文真實目的。</aside><p>原來 GitHub 的倉庫語言會直接無視非主分支下的内容，此困擾我許久的問題終於解決，喜大普<mark>奔</mark>！</p><p>只恐怕世上并沒有和我持相同問題的人😂。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;廢話&quot;&gt;&lt;a href=&quot;#廢話&quot; class=&quot;headerlink&quot; title=&quot;廢話&quot;&gt;&lt;/a&gt;廢話&lt;/h2&gt;&lt;aside&gt;指以``.``開頭的配置文件。&lt;/aside&gt;&lt;p&gt;話説很久以前我在 GitHub 上創建了一個&lt;a href=&quot;https://g
+      
+    
+    </summary>
+    
+    
+      <category term="瞎折騰" scheme="https://inchei.github.io/blog/tags/%E7%9E%8E%E6%8A%98%E9%A8%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三頭犬</title>
+    <link href="https://inchei.github.io/blog/2018/08/18/roco/"/>
+    <id>https://inchei.github.io/blog/2018/08/18/roco/</id>
+    <published>2018-08-17T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.703Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>致一去不復返的、荒廢于洛克王國的小學四年級。<br>那時寫到一半的「非主流」同人。</p></blockquote><p>從擁有意識開始，小甲便認爲這不是什麽好地方。雖然不是什麽好地方，但小甲也説不清到底是什麽地方不是什麽好地方，也許叫做「通天塔」吧；他只好依照微薄的邏輯確信，不是什麽好地方的地方必然就是坏地方了。於是抱著小小的希望，小甲放棄說「這真不是個好地方」這一好像句式更加高級的句子，而說：「這真是個坏地方。」</p><p>盡管如此，希望仍然破滅了：他實在高估了小乙的理解能力。他只聽得小乙迷迷糊糊地、仿佛口裏含著什麽玩藝一樣答應他：「嗯？」</p><p>小乙仿佛出生起就只會說「嗯」一個字。他并不責怪小乙，反而深感愧疚：他已經能隱隱約約感覺到，在子宮裏大夥兒混在一塊兒的時候，小乙的腦細胞多半是投奔到自己這裏來了。他不像小丁堅信的那樣認爲頭痛正是因爲自己腦細胞過量了，而是推斷出罪魁禍首乃頭上很少消退的傷口，但仍然覺得此事怪哉。大概小乙并非是不能説話，而是不想要説話吧——這種真不是個好地方的地方，説話確實有點沒必要。</p><p>但是小丁發話了：「你爲什麽成天說『這真不是個好地方』呢？難不成你還見過有更好的地方嗎？」</p><p>於是小甲不吭聲了。他的的確確沒有見過什麽更好的地方，但他仍是經常質疑：這個昏昏暗暗，一片漆黑的地方真是什麽好地方嗎？他大概從基因裏聽説過，三頭犬的故鄉便是昏昏暗暗、一片漆黑的地獄了；然而地獄中快活的三頭犬，在這種地方快活嗎？他又不明白什麽叫做「快活」了，因爲他縂以爲自己從未快活過，但像「好地方」一樣，他也從未感受到有更好的心情。</p><p>他開始想，是否要像小丁那樣過活。小丁是最年幼的，但從未使人感受到他本應有的幼稚。這大概是由於：他縂不像自己一樣質疑，而是看破了一切一樣，默默地承受一切的日常活動。</p><p>小甲難受極了。他不肯放棄質疑，卻也只能跟小丁一樣承受一切；這樣一來，還不如直接放棄質疑，反倒是更加快活了——反正不思考「快活」為何物諸如此類的事情，所有東西就都是「快活」的了。</p><p>「這真是個坏……」</p><p>脚步聲響起之後，他立即閉上了嘴。能製造出如此氣勢磅礴之聲音者，惟有「洛克」是也。這也就意味著，他們三個要準備「對戰」了。</p><p>洛克毫不客氣地走到了小甲的跟前，他們總是面無表情地笑，隨後扔出了球來——這一次，蹦出來的是一隻小帕。</p><p>小甲有一點點驚訝，因爲小帕似乎同樣是地獄裏的居民。但他愣愣地，無法説出打招呼的話；轉眼看小乙和小丁，都昏昏欲睡——畢竟從未有人對洛克的寵物説話。</p><p>他想要説話，卻不得不「對戰」！小乙和小丁毫無鬥志地應付著小帕。隨著一陣劇痛，在小甲的無意識中，對戰已經結束了。</p><p>小丁百無聊賴地舔舐著傷口，小乙仍毫無反應。他終於反應回來，意識到頭上的傷又不會好了，便去看小帕。但他看到的并非基因裏的小帕：他看到的是洛克繼續面無表情地微笑，撫摸著一隻毛色暗的小狗。</p><p>他最後還是沒忍住不顧小乙的感受說道：「這真不是個好地方！」</p><p>然後他繞過那隻小狗和洛克，使小乙和小丁只能反應不過來，衝下了樓梯，飛奔向門口。門口的白色忽然迸濺出來，於是染上了綠色的草地和樹林。他心想：這可真是不像地獄，但總歸有點快活了。不過，「快活」到底是什麽東西，他暫時還無法説清。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;&lt;p&gt;致一去不復返的、荒廢于洛克王國的小學四年級。&lt;br&gt;那時寫到一半的「非主流」同人。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;從擁有意識開始，小甲便認爲這不是什麽好地方。雖然不是什麽好地方，但小甲也説不清到底是什麽地方不是什麽好地方，也許叫做「通天塔」吧
+      
+    
+    </summary>
+    
+    
+      <category term="小說" scheme="https://inchei.github.io/blog/tags/%E5%B0%8F%E8%AA%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>單倉庫設置 hexo 和 Jekyll 在 gh-pages 子頁面下</title>
+    <link href="https://inchei.github.io/blog/2018/07/01/hexo-jekyll-ghpages/"/>
+    <id>https://inchei.github.io/blog/2018/07/01/hexo-jekyll-ghpages/</id>
+    <published>2018-06-30T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.739Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><aside>實際上我害怕 WordPress 是在害怕沒錢支持服務器，等到初中瞭解了本地服務器后立馬試了一番。</aside><p>我仔細想了一想，第一次看到獨立博客這東西就是獨立博客中的翹楚 <a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>。大概在這個時候，我才能升起强烈的興趣，於是折騰起了基於 <a href="https://pages.github.com/" target="_blank" rel="noopener">gh-pages</a> 的靜態博客<del>，甚至因此對於 <a href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a> 這種動態博客產生了恐懼</del>。在這期間，我懷揣著一個會打字比較快、還會手敲網頁、於是慾將自己的網頁作主頁的小學生的夢想，遇見了一個問題：</p><p><a href="https://www.zhihu.com/question/38125993" target="_blank" rel="noopener">如何在 GitHub Pages 上传自己写的网页作为首页，Hexo 博客作为其子页？</a></p><p>今日即擴展至 Jekyll ，記錄自己的解決方法。</p><h2 id="Jekyll"><a href="#Jekyll" class="headerlink" title="Jekyll"></a>Jekyll</h2><p>Jekyll 可以和你自己編寫的網頁共存。這意味著：只要你把 Jekyll 博客的内容移動到主倉庫的子目錄下，再在主倉庫直接編寫，一切就完成了。</p><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="突破口"><a href="#突破口" class="headerlink" title="突破口"></a>突破口</h3><p>在上文提及的知乎問題中，有人提供了雙倉庫的解決方案。即：一個倉庫名爲<code>uname.github.io</code>用於儲存主頁面，另一倉庫名爲<code>blog</code>儲存修改<code>站點配置文件</code>中<code>URL</code>一節為子頁面的 hexo 文件。如果不用 CNAME，這實在是有點繞不過彎子的行爲。（詳見：<a href="https://jacklightchen.github.io/blog/2016/10/27/HexoOverview/" target="_blank" rel="noopener">Hexo - 用自己的页面做首页</a>）</p><p>如果你將 hexo 目錄的内容直接粘貼到<code>uname.github.io</code>倉庫下的子目錄下，會發現除了引用資源外，内容并無差錯。而經過修改<code>站點配置文件</code>中<code>URL</code>一節為子頁面后，引用資源跟著變成了子頁面下的路徑。</p><p>從 hexo 的本質來看，它就是生成了一堆靜態文件罷了。這樣一來，解決問題就非常容易了。</p><h3 id="解決方案"><a href="#解決方案" class="headerlink" title="解決方案"></a>解決方案</h3><ol><li>修改<code>站點配置文件</code>中<code>URL</code>一節對應你期望的子目錄名稱。</li><li>同樣，修改<code>root</code>一節為子目錄名稱。</li><li>在 hexo 目錄下運行<code>hexo g</code>。</li><li>直接複製 hexo 目錄下的生成文件目錄（默認為<code>public</code>）中的内容至<code>uname.github.io</code>倉庫下的子目錄内。</li></ol><p>當然，碼力夠強、時間夠多，自然可以由此原理寫個自動脚本。</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>這種方案相當於跳過了利用 hexo 工具部署至 GitHub，實際上還是有點麻煩的。但回頭再想想：你同時需要直接用 git 來 push 你的主頁面，那麽在電腦裏留著本地倉庫有什麽不好的呢？</p><p>因此，煞費苦心建了一個叫做「blog」的倉庫的各位，刪掉它吧！</p><h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><p>倉庫請見：<a href="https://github.com/inchei/inchei.github.io/" target="_blank" rel="noopener">https://github.com/inchei/inchei.github.io/</a></p><ul><li>Jekyll: <a href="https://inchei.github.io/lab/jekyll">https://inchei.github.io/blog</a></li><li>Hexo: <a href="https://inchei.github.io/blog">https://inchei.github.io/lab/hexo</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;aside&gt;實際上我害怕 WordPress 是在害怕沒錢支持服務器，等到初中瞭解了本地服務器后立馬試了一番。&lt;/aside&gt;&lt;p&gt;我仔細想了一
+      
+    
+    </summary>
+    
+    
+      <category term="瞎折騰" scheme="https://inchei.github.io/blog/tags/%E7%9E%8E%E6%8A%98%E9%A8%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>長安行</title>
+    <link href="https://inchei.github.io/blog/2017/12/23/Changan/"/>
+    <id>https://inchei.github.io/blog/2017/12/23/Changan/</id>
+    <published>2017-12-22T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.729Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="天才"><a href="#天才" class="headerlink" title="天才"></a>天才</h2><p>「我吃蘋果不說話。」</p><p>我已經不記得這件事情發生在什麼時候了——說到底，正是因為這連事情都算不上，我才會毫不猶豫把它忘記吧。總之，我不記得自己是怎麼引得祖父生氣到不想和我說話，於是順口溜一樣對我這樣聲明了絕交消息的。甚至我還不清楚他是否在生氣，直到現在也不明白，只不過是母親告訴我這件事，我才戰戰兢兢認為可以肯定。而且以下這一句話，也全部是從母親那裡聽來的。</p><p>「我吃西瓜呱啦啦。」</p><p>據說是這樣——據母親說，我是這麼回答的。我不明白為什麼這個三四歲小孩隨口說出的對仗有什麼特別之處，反正我現在是特別不喜歡吃西瓜的。大概有一部分原因是祖父聽過這句話之後，突然永遠繃緊的臉有點鬆懈下來了，使我大吃一驚，不知何所適從吧。</p><br><p>滬教版的那篇葉開先生一字一句證明為抄襲并改裝的《餐桌上的大學》，我看著便眼熟。仔細想想，好像一到祖父家裡去，就會在餐桌上被提問各種問題。我總是憑藉小孩子的特性胡謅一番，惹得祖父臉色鐵青。</p><p>祖父上高中的時候，十年浩劫開始了。我不知道具體的內容是什麼，只知道祖父對此深惡痛絕，怯懦如我，自然無法膽大包天，尋根問底。當聽說當年不知如何逃過浩劫的同學成了什麼「中科院」里的人后，他忿忿不平，大聲宣稱：在學校裡的時候，那傢伙成績根本就沒有自己好。</p><p>我相信祖父的話。生在僑鄉的祖父，年紀輕輕就跑去島國，說得一口流利的日語，光憑這一點，我就可以頂禮膜拜了。然而，終其半生，他只當過區區鄉村學校——真正的一個班四個人的學校的化學老師。</p><p>一定是因為沒有機遇，一定是因為沒有機遇。</p><p>往祖父的眼睛里，我看到這樣一行字。</p><br><p>父親被稱作天才，大概也是祖父一手製造的。從前在村中算得上是傳奇的事件便有許多關於父親——五歲小孩做出高中化學題目，口算五位數乘以五位數之類的如今看來可以登上無人觀看的天才兒童節目的內容。</p><p>當然，我也相信父親的光榮事跡。身為父親小學同學的母親哭笑不得地證明：每天上下學，父親總是站在路邊街機上玩遊戲，要不就是躲進遊戲店看別人玩遊戲；上課時，也一直呼呼大睡，老師也不想叫醒他。不僅如此，母親親眼見證父親打勝班上欺負母親的那個男生后，老師也沒有提起這件事情。唯一的原因僅僅在於，父親總是成績夠優秀——起碼在鎮上的以福清話所謂之「<ruby>鴨<rp>（</rp><rt>ㄚ</rt><rp>）</rp>不<rp>（</rp><rt>ㄅㄨˋ</rt><rp>）</rp>操<rp>（</rp><rt>ㄙㄚ</rt><rp>）</rp></ruby>」的學校是如此。</p><p>於是，祖父便盼望著父親考上個清華北大，父親考上的卻是清華的研究生院。祖父又發言：請當上科學家，父親卻在研究生院里選擇了計算機系，當了個透支眼睛的程序員，且發揮其無賴的本性，獲得了高薪待遇。</p><p>然而，祖父的遺憾並沒有被填滿。</p><br><p>據說我出生的時候，被祖父家罵得很醜。稍一深究，就能明白其中涵義：祖父家不滿意父親與母親的婚事。母親雖然不如不知是不是父親出於自戀心裡而說喜歡自己還因此使另一個喜歡她的男生自殺未遂的那位清華的黨支部書記，也是人人羨慕的畢業於師範學校的公差者。但是祖父的要求毫無疑問也得到前文所述的書記的水準，便造成了我可憐的遭遇——畢竟現在看來，完全沒有證據說明我醜。</p><br><p>直到現在，我的冤枉才被平反——這並不意味著我從醜變美了，而是因為我以前五名的成績考入了某個看似很厲害的學校。</p><p>「我就說我們家有天才的基因。」原本嫌棄學費太貴的父親對屏幕另一頭同樣得意的祖父說道。我只是仰望身高也能稱作「天才」的那個父親，沉默不語。</p><br><p>我十分尊敬我的班主任。明明早已四十幾，卻能夠留著烏黑的一頭長髮，仙女一般在教室裡踱來踱去，頗有初中那個第一篇選自高爾基《童年》的課文里祖母的形象。遺憾的是，這個學校並沒有像班主任一樣使人舒心——雖然看上去很厲害，實質只是某個名大學新辦的一屆畢業生也沒有的學校，校內大多是不想上公立學校，卻考不上本地可靠私立的學生。正因如此，也難怪班主任在抓鬮獲獎學生時，看見我的名字會開心，慶幸自己並沒有選到那些被父母用錢堆起來的學生。</p><p>但我還並不值得班主任如此重視。換用歷史書中所描寫的話，那就是「農民階級的局限性」導致了悲劇。我奇怪地不太學習，也能在所謂「農民工」小學里長期盤踞榜首，因此既完全沒有達到我偷偷瞄到的母親微信朋友圈里那些教育家們所說的小學的養成良好學習習慣的目的，也從不參與同齡人喜好的遊戲中，而是沉溺于一個人的玩耍里。雖說這個學校並非有什麼名堂，我仍然遇見了一兩個勤奮刻苦的敵手。在此趨勢下，我必定憑藉自己的性格悄悄退出戰爭，躲到一邊去。可是當我回頭看班中時，入學時比我拿了高一等獎的同學已經更早退出沙場，使人不免懷疑他的入學獎是否是走了家長是教職工的後門，把我推到了班級的風口浪尖。</p><p>「就算這樣也沒有用！」我極想喊出這句話，繼續自己優哉游哉的日子。</p><p>事實證明，這種日子還能持續一會兒是肯定的，卻不能長久不變。我像長跑時一樣，眼睜睜看著那些用功的同學頭也不回地超越我，使我望塵莫及，又由於肌肉無氧呼吸的產物乳酸的影響而不想行動起來；又如和人扳手腕，一直被人說沒有用力，不分上下時自己逃脫掉。</p><br><p>「對不起！對不起！」</p><p>最近，某個人一直想說這句話。是誰呢？仔細思考，似乎這個人就是我自己。</p><p>對不起，我無法努力起來。</p><p>對不起，我想要休息一會兒。</p><p>對不起，我想做一個天才，不用努力也有好成績的天才。</p><br><h2 id="青春"><a href="#青春" class="headerlink" title="青春"></a>青春</h2><p>我要醒來啦！</p><p>乍一看，一個像醒來的人好像不會說這樣的話，倒像是搞笑漫畫裡僵尸起來時可能會這樣說。</p><p>不錯，我就是僵尸，並且我要醒來了。掘開龜裂的泥土，剖開不毛的地皮，擊碎風化的墓碑。我馬上就要醒來！</p><br><p>我沒有撥打母親的電話，直接跟著同學飛奔到教務處，氣喘吁吁地看著老師。他的身邊圍著一群初三年級成績較好的學生，唧唧喳喳著什麼。我將目光移向桌面上那張平而在陽光照射下顯得粗糙的紙張，眼睛里映出那一行字：</p><p>西安交通大學少年班招生報名表。</p><p>報考吧，報考吧，報考吧。謎之聲迴蕩在我心中，我憋足了勁，終於克服了溝通障礙，出口的卻是淡淡的一句話：「老師，我要報考。」</p><p>那一瞬間，從口中迸發出的好像不止是這句話，有種沸騰著的令人感到陌生而又可怖的情感也傾瀉而下，未及地面，就觸碰到那生來不能夠接觸的人世的空氣而汽化消散了。</p><br><p>如果我是像天野遠子那樣的文學少女的話，就要以想像來構出這一對我來說可謂瘋狂之舉動的藍圖。我從此開始奮鬥，與那群品格高尚的人一起學習，擁有那種人們所歌頌的美好的青春；無論考不考得上這所大學，始終能夠為自己的青春留下可以示人的一面，足矣。</p><p>因爲我是「文學少女」，所以這一切衹是我的想象而已。</p><br><p>僵尸用腐爛的手臂挪開沉重的棺木，面無表情地向無底深淵看去。半晌，隨著有什麽輕盈的東西落在地面上的聲音，墓地裏已再無身影。</p><br><h2 id="城墻"><a href="#城墻" class="headerlink" title="城墻"></a>城墻</h2><p>長安是個好聽的名字，於是，我執著地想把這座城市稱作「長安」，被同學戲謔了一番。我才不管哩！在城市裏住多了，總是忘記有城墻這種東西。因此，國慶假期的第一天，剛走出長安的火車站看見城墻時，心裏好像什麽東西被觸動了似的。</p><p>「我們待會兒上去看看吧。」我對父親說。</p><p>然後我們開始了一段一千六百米的路程，一段四個小時的路程。從下午兩點鐘，拖拖沓沓，一直到六點鐘晚飯的時候。</p><p>「休息一下吧，休息一下吧。」在租著單車飛馳的人群和戴著耳機跑步的人呼嘯而過的聲音中，父親一直氣喘吁吁。而我看著他，非常不尊敬地感到了可笑。這個人才不是什麽天才，應當是一個躲在家裏、常年不出門的頂著「高級程序員」帽子的廢材才對。我所以為身上纏裹的「天才」的紐帶，完完全全地不存在。一切變得透明可見起來。</p><p>角樓上亮起的發光二極管、女墻在夕陽照射下漸漸變得明顯又漸漸變得模糊不見的輪廓、城垛邊立起的燈籠桿子、脚下被磨得朦朦朧朧的石磚廠標志，和時間的流逝、路途的疲勞一樣變成了鏡花水月，剩下的衹有一種不可名狀的感覺。<em><span lang="ja"><ruby>高<rp>（</rp><rt>こう</rt><rp>）</rp>揚<rp>（</rp><rt>よう</rt><rp>）</rp>感<rp>（</rp><rt>かん</rt><rp>）</rp></ruby></span></em>。這個看《京吹》時縂見到的一個詞語忽然變得非常容易理解了。</p><p>我無所畏懼！雖說上一個說這句話的人頭掉了，我仍然心中不住地想。</p><p>想著想著，頭歪了——沒有掉，歪了——歪進了考場，上頭兩個眼睛對著幾為空白的物理試卷，歪了。右邊桌上的考生，也摩挲著鉛筆和草稿紙，試卷上白净得像我一樣。</p><p>站在城墻上，我無所畏懼。錯覺一直伴著人，直到他看見現實。</p><p>國慶假期一結束，我就從西安直接回到學校。准考證號也給扔在了旅館的紙簍裏，成績自己也查不了。</p><br><h2 id="後話"><a href="#後話" class="headerlink" title="後話"></a>後話</h2><p>年輕的被叫做「博士」的姚書記，一定是最不受學生喜歡的老師。此時，他搖擺著略顯肥碩的身軀，走進我們的教室。</p><p>神思像往常一樣飄出窗戶。</p><p>「我們決定下個學期就組建專門的班級來考西交大。上次周某同學和<em>陳某</em>同學雖然還是初二，但成績比我們初三的很多同學都高；你們也可以看到初三有一個同學考上了……」</p><br><p>我突然想起自己雖是初二但因爲一個月之差已經不能再報考了。老了啊。</p><p>當然，這個自説自話的學校才不會建那種專應付一門考試的班級。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;天才&quot;&gt;&lt;a href=&quot;#天才&quot; class=&quot;headerlink&quot; title=&quot;天才&quot;&gt;&lt;/a&gt;天才&lt;/h2&gt;&lt;p&gt;「我吃蘋果不說話。」&lt;/p&gt;&lt;p&gt;我已經不記得這件事情發生在什麼時候了——說到底，正是因為這連事情都算不上，我才會毫不猶豫把它忘記吧。總之，
+      
+    
+    </summary>
+    
+    
+      <category term="學校" scheme="https://inchei.github.io/blog/tags/%E5%AD%B8%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>同學錄</title>
+    <link href="https://inchei.github.io/blog/2017/12/03/alumni/"/>
+    <id>https://inchei.github.io/blog/2017/12/03/alumni/</id>
+    <published>2017-12-02T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.693Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="盧"><a href="#盧" class="headerlink" title="盧"></a>盧</h2><p>我第一次見到盧，是在社團的成立會上。</p><p>我往報名表上填寫第一志願是沒有成立的排球社（某個老師對我說過，有我這個專業選手，我們學校一定得有個排球隊，這使我興奮極了），實在找不到其他的興趣，才不情不願地填了「動漫社」。</p><p>我盯著這幾個字，就想要揉碎它們，便盡量期盼排球社而不想這個下下策，匆匆忙忙把紙條塞進班長手裏。</p><p>成立會當天，我被背叛了似的盯著社團列表。</p><p>「誰來當社長？」那個組織活動的老師急不可耐地詢問，仿佛這件事要把他的時間全部吞噬掉一樣。</p><p>啊，青少年特有的吝啬使在場沒有一個人舉手。于是，我高高舉起了手，並隨時准備放下——這碼事我可是幹多了，只要一個人敢開頭，其他膽小的家夥就會全部暴露出自己的野心。之後我就可以全身而退，美名其曰：抛磚引玉。</p><p>毫不遲疑地，盧邊伸手邊喊道：「我！」</p><p>我這才仔細地打量她，只覺得這人略胖（說起來我見過的 ller 都挺胖的），相貌委婉來說也是不漂亮，額上盡是衰頹的紅色的青春痘。我不喜歡這個人。</p><p>要有其他人舉手，我就放下，因爲我不想讓這家夥成爲社長。堅定的信心帶給了我悲劇。那個傲慢的老師一聲令下：「石頭剪子布！」我就只好看著我的掙紮地想要收回的剪刀手，比著盧掙紮地想收回重出的五根手指。</p><br><p>盧在年輕的時候，似乎是以特有的偶像式思維來面對生活的。學校某次舉辦學生自演講的活動，盧憑藉自己的好嗓子當選發言者之一。但作爲一個領導突然間想到的活動，且要符合社會主義核心價值觀，總歸是沒有時間來準備的，且顯得又臭又長，因此整個演講過程中氤氳著尷尬的氣氛。一直拖沓到每個人肚子都咕咕作響之時，演講才結束。學生們飛一般衝向食堂去。</p><p>有人抱怨連天著，我倒并沒覺得有什麽問題。直到我作爲第一個食用完畢的人回到教室，才清清楚楚地被白板上明顯的盧特有的、曾經使我被她的小夥伴看見隨手寫出的字后大聲嘲諷不如此字的、所謂「瘦金體」，像其他喫不到飯而抱怨的人一樣所擊倒了。那一行字是：</p><p>「對不起，這次演講沒有準備好，下次一定會努力的！」</p><p>我几乎要被這幾個蠢乎乎的字所感動了，這才想起結束時她想拿起話筒説些什麽卻被老李阻止了的事，頗感慶幸。衹不過再也沒有下一次了——這確實是一個領導突然間想到的活動。</p><br><p>看久了盧，我就明白了：這家夥只是一個偶像宅，與我等——不，應說只有我一個大概能勉强算作的人——御宅族並沒什麽共同語言。</p><p>那一次期末，運動系社團也要參加強制性的舞台表演。不過，對于並不盛行社團文化的此處，社團大概是不分什麽運動系和文化系的；再者，文化系也不一定能夠舞台表演。例如動漫社，最終只能歸于 cosplay 這種使我異常頭痛的次次文化；本來想組織制作動畫，因爲美術社的破滅，動漫社被征用去畫學校宣傳畫，完全無法准備什麽舞台表演。</p><p>盧對此不知爲何十分熱心。她從 QQ 上找到我，以下是部分引言。</p><blockquote><p>盧：社長，妳覺得最容易 cos 的是誰？</p><aside>173 cm</aside>我：私以爲是千反田愛琉。一套水手服就夠了，發型和發長都非常常見。不過以<mark>我的身高</mark> cos 什麽都不合格。<aside>约摸是她以爲「私以爲」這個漢語詞彙是我在以日語中 <span lang="ja">わたくし</span> 的漢字作爲主語，然后联想到当年热门的《你的名字》，心血来潮地用了个 <span lang="ja"><ruby>君<rp></rp><rt>きみ</rt><rp></rp></ruby></span> 来回复。</aside>盧：那<mark>君</mark>要 cos 什麽呢？<p>我：我不想 cos。</p><p>盧：好吧。對了社長，妳喜歡什麽類型的動畫啊？</p><p>我：《<a href="http://www.madoka-magica.com/" target="_blank" rel="noopener">魔法少女小圓</a>》這種吧。不過，《<a href="http://yojouhan.noitamina.tv/" target="_blank" rel="noopener">四疊半神話大系</a>》和《<a href="https://bgm.tv/subject/299" target="_blank" rel="noopener">絕望先生</a>》也不錯，雖說後者還是漫畫更好看。</p><p>盧：原來如此。</p><p>……（不知爲何扯到老公老婆上）</p><p>盧：我給妳發我老婆們的照片。</p><p>……（μ’s 全員的照片）</p><p>盧：我還有 xx 個老公。</p><p>……（不知哪個偶像團體的照片）</p></blockquote><p>我沒再回複她，只是近乎崩潰了。</p><p>表演那一天，我作爲社長穿著校服橫跨舞台。那個人套著不合體的巫女服。</p><br><p>新年的時候，盧給我們班長（女）送的賀年卡上寫著「做我老公」之類的發言，大概是受到了 μ’s 某後宮王的不良影響。</p><p>順便一提，她給我的賀年卡上寫的是「魔法少女什麽的很可愛哦」。我回憶起那一次談話，又近乎崩潰了。</p><h2 id="室友A"><a href="#室友A" class="headerlink" title="室友A"></a>室友A</h2><p>在室友A之前，我從沒在現實中見過如此狂熱的動漫愛好者。我已忘記我們之間是誰先挑起這個我根本不想提起的話題了，然而我堅信並不是我。</p><p>室友A相貌及其討喜。這裏的「討喜」，並非指「美麗」，而是按《愛蓮說》裏的「可愛」解釋：值得喜愛。最爲顯著的是其眼。臨近期末的時期，幾乎每節語文課和數學課，老師都要爲她的眼睛而傾倒，隨即關切地讓她起立「清醒」一下。室友A只能在課後狂呼擁有這麽一雙疲憊的眼睛所帶來的悲痛了。</p><p>室友A猶愛少年漫與帥氣的男主角，據說曾經花費整個暑假不舍晝夜地補完了《<a href="https://one-piece.com/" target="_blank" rel="noopener">海賊王</a>》。不知這是否是原因，她毫不拒絕賣肉的春藥之靈，對萌豚飼料敬而遠之，不太 Jump 的番劇也一無所知。本人說過，自己已看過 200 余部動畫，不分優劣，能看的都看了，陷入了所謂「漫荒」狀態。我于心不忍，不再對她推薦什麽幾原邦彥、新房昭之了。</p><aside>這許是我之前固有的偏見之一，實際上這個作品的畫風還是不錯的。</aside><p>由于《彈丸論破》在期初以動畫形式出了<a href="http://www.nbcuni.co.jp/anime/danganronpa3/" target="_blank" rel="noopener">續作</a>的緣故，我與室友A之間往往話不算少。我極力想爲「漫荒」的室友A傳播<a href="https://kami.im/" target="_blank" rel="noopener">圓神神教</a>，然而室友A以<a href="https://www.bilibili.com/" target="_blank" rel="noopener">嗶哩嗶哩</a>上「百合」的標簽和畫風等爲由拒絕了我。當我還在爲無法理解爲何其能忍受《<a href="http://fukumenkei-anime.jp/" target="_blank" rel="noopener">覆面系NOISE</a>》的<mark>古老少女漫畫風</mark>卻無法接受蒼樹梅老師的小圓臉而苦惱時，她又舉例說明了《小圓》的點擊量之低，《<a href="http://shokugekinosoma.com/" target="_blank" rel="noopener">食戟之靈</a>》的點擊量之高。</p><p>「B站點擊率說明不了什麽。再說，《小圓》完結3年之後才被購買版權，《食戟之靈》剛播出還在熱點上時就在B站，」我後悔自己這樣說，「B站用戶大都是並無什麽鑒賞動畫的精神，看B站這種被笑稱充斥著小學生的網站完全無法評判一部動畫嘛。」</p><p>深愛著B站的室友A憤怒了，我深感抱歉，決心與她在動畫上分道揚鑣。</p><p><del>可是，我也深愛著B站啊😏。</del></p><h2 id="室友C₂"><a href="#室友C₂" class="headerlink" title="室友C₂"></a>室友C₂</h2><p>軍訓開始的第二天，我才慢吞吞地挪到出租車上。但是，出租車並不明白我的心意，以正常出租車應有的速度駛向學校。雖然我內心某種方面上希望意志能夠拖慢汽車的速度，然而這並不是什麽好事——我會暈車的。</p><p>這實在是件唐突的事情。在政策的影響下，我在長居的地方沒有學上；得到消息的同時，大多數私立學校都結束了招生。只剩兩所了，我硬著頭皮考試，不出意料都得到了入取資格。</p><p>「要去哪一所呢？」母親問我。</p><p>「去這一所吧。」我指著現在所就讀的學校，支支吾吾地決定，「畢竟那一所去的路上真是吐死我了，而且學費有點太貴了。再說，這一所有獎學金等著。」</p><p>我仍然記得起去那所學校招生考試時的情況。司機先生七彎八拐，就像相對性理論的《<a href="http://music.163.com/#/song?id=27501691" target="_blank" rel="noopener">上海an</a>》裏所描述的一樣，將我的腦中攪成了一團漿糊，最後轉變爲肚子裏的翻江倒海。</p><p>出租車無情地把不知所措的我抛棄在朔風之中。真是狼狽啊！我把司機的車吐了一片，同時爲深色秋褲留下了印記。褲子像洗完手後不明智地用來擦水的餐巾紙一樣黏乎乎地附著在腿上。風每一吹來，那一攤水便更加刺激了我的神經，使我感到沒有力氣擡起臉來。我希望不著痕迹地溜進考場，考試卻已經開始了半個小時。</p><p>「那就去這一所吧。」母親點點頭，「不過，今晚就要過去啊。」</p><p>「那麽還是等一天好了。」我立刻回答，幾乎不知道我在說什麽。</p><p>母親照樣點頭，也不曾知道我說了些什麽一樣。</p><br><p>第二天上午，我堂而皇之走進學校，內心極其惶恐。</p><br><p>我和室友C₂是在第一次分配座位的時候的前後座。室友C₂常常伸出手來搔著脖子後遍布的痤瘡，發出令人毛骨悚然的聲音。與她同桌的男生，和她一樣是看起來很厲害的「學而思」學生。</p><p>室友C₂第一天就毫不客氣地宣言：「從此以後，我們組（我們的學校是課堂加分制）就要依靠我們倆了，妳倆（我和同桌）就等著躺贏吧。」</p><p>「躺贏」這個詞語並沒有什麽錯誤。一周後，本組便基本確定了我和同桌帶動節奏，前座兩人不知神遊何方的狀況。我從以前便不喜歡「補習班」的同學，此爲一大原因。就算並不是普遍現象，在我的粗俗的人脈圈中也是常見的。</p><br><p>但是再怎麽樣，我并不給她善解人意地投以更多惡意的關注。直到那一天收操時，我的耳朵反常地在意起了四周的環境。有出於室友C₂的三個字打擊到了我：「性取向」。她的聲音和我的耳朵一樣反常地降低到了普通人耳語的程度，衹可惜正如先前所述，我的耳朵也有點反常。我想起來前幾日室友C₂的室友問我是否為同性戀，總覺得當時有什麽密謀一樣。我立刻以否回答，只見著那位室友點點頭就走了。</p><p>這件事在我心中就這麽結束了。我相信這和某天回宿舍時她突然壞笑著親了一下我的臉頰沒什麽關係。</p><br><p>更換座位后，我一如既往地更換了熟識的人，與非座位旁邊的人自然沒了關係。但就在初中一年級的臨近期末，我作爲一個自認爲衹能摸魚的選手被參加了個什麽還有教授做開幕式的數學競賽，凄凄慘慘戚戚，又和室友C₂分到了一組。那真是個美好的一天，室友C₂做完四乘六的數獨，立刻重重放下筆，好像故意弄出聲響似的舉起手；我非常沒有團隊意識，還在慢吞吞地檢查第二遍我的答案，衹不過心中稍微減少了點摸魚的念頭。</p><p>我們組一路過關斬將，迅速奪得頭籌。最後一個關節是自選題目，説是序號數字越大，難度越高，得到的分數便多；與此同時，若答錯，失去的分數也是最多的。猶豫之間，室友C₂一口斷定，最後一題必定會出乎意料地簡單，果斷進行環抱著雙臂、高昂著頭且翹起椅子的誠懇勸説。臺下本班的同學也騷動起來，幾個激動的人直接伸出手擺出最後一題的數字。於是人們的腦袋都隨著腦經急轉彎打了結，終於選擇了最後一題。</p><p>「你們有 180 秒作答。」裁判的老師老李宣讀，臉上連得逞的狡黠的笑容都憋住了。</p><p>我心中放出馬後炮：果然不會有什麽腦筋急轉彎。幸運的是，我們有 10 秒時間可以選擇放棄。</p><p>「放棄！放棄！」我叫道，不過需要全員同意才行。</p><p>同行的坚果持有點不決的態度，衹好盯著室友C₂看。而室友C₂撇著嘴，「再等一下。不要放棄。」坚果順著附和，我便不再作聲。</p><p>於是，180 秒閃電一般過去了。我們的名次便順理成章地一落千丈。老李笑嘻嘻的樣子，想要現場揭曉答案解法。但隨著幾分鐘的沉寂過去，他也放棄了這一題，糊弄著學生們說要解散；衹留下室友C₂忿忿不平的聲音：「都怪那些臺下的觀衆不好好看著，净是在起哄！真是煩啊！」</p><p>所以自此之後，我發誓除非坐在一起絕對不和室友C₂説話——雖然仔細想想，我對所有人都是這樣的。</p><h2 id="室友B"><a href="#室友B" class="headerlink" title="室友B"></a>室友B</h2><p>聞香識女人。</p><p>這句話我也忘了是從哪裏聽到的了，後來知道有部電影叫做《聞香識女人》。不過早在這句話之前，一群男生就開始討厭地對著女生叫：「妳的『處女香』呢？怎麽沒有了啊？」開起諸如此類的惡意的、黃色的玩笑。</p><p>我覺得「處女香」這東西大概是沒有的；「聞香識女人」的「香」，便一定是弗羅瑞斯。但是，一次樓道上走在室友B身旁時，我聞到了——淡淡的香味。</p><p>不是香水吧，我想。室友B說她過敏，臉上只能碰涼水。冬天的時候，室友A便抱怨：「能別把我放好的熱水一下調涼否？」至於沐浴露，因爲用的是嬰兒版也不知被我們無意中笑話過多少次了。</p><br><p>有一次我做夢，夢見我在體育館裏。排球掉了，我俯身去找。眼前突然出現了一個同在地上俯身的人。我們險些撞到了。我擡頭看——是室友B。然後我就醒來了。臉上似乎有點火辣辣的。</p><p>我對室友B說：「妳在夢裏嚇我！」</p><p>她説：「那可不好啊！我那麽煞氣的嗎？」</p><p>我們於是笑了。</p><br>初二年的暑假，室友B便和男友分手了。<h2 id="老汪"><a href="#老汪" class="headerlink" title="老汪"></a>老汪</h2><p>我現在想寫一位男同學。不過，老汪并不常被男生看作男生。這并不是說「什么？你們班有個娘炮？！」，而是更加「深層次」的問題。説不清道不明的問題。</p><p>（未完）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;盧&quot;&gt;&lt;a href=&quot;#盧&quot; class=&quot;headerlink&quot; title=&quot;盧&quot;&gt;&lt;/a&gt;盧&lt;/h2&gt;&lt;p&gt;我第一次見到盧，是在社團的成立會上。&lt;/p&gt;&lt;p&gt;我往報名表上填寫第一志願是沒有成立的排球社（某個老師對我說過，有我這個專業選手，我們學校一定得有個
+      
+    
+    </summary>
+    
+    
+      <category term="學校" scheme="https://inchei.github.io/blog/tags/%E5%AD%B8%E6%A0%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿鄒</title>
+    <link href="https://inchei.github.io/blog/2017/11/18/zou/"/>
+    <id>https://inchei.github.io/blog/2017/11/18/zou/</id>
+    <published>2017-11-17T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.720Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>阿鄒的名字是鄒立，但是從很早之前，就沒有人記得他本來的名字了。</p><p>阿鄒，阿鄒，叫得確實順口又好聽，只是缺乏一點文藝氣息罷了；阿鄒雖然也明白這一點，但仍接受了這個稱呼。畢竟，阿鄒本身確實並沒有什麽「文藝氣息」，如多數人一樣，「文藝氣息」對于阿鄒來說是沒用的。</p><p>阿鄒所在的年級，是耍著玩似的第二屆。明明白白，一班和二班看起來完全不如三班和四班努力，三班和四班的老師卻總喜歡說另外兩班的好——雖說一二班確實成績稍好一點，可真是奇怪的精神。</p><p>因此，在如此之氛圍內，阿鄒迷迷糊糊地努力學習，也並不明白自己在幹什麽，兩眼迷離地看著桌子上堆積成山的作業，也不知該說什麽。一離開教室，又如同一個平平常常的初中男生一樣，或與其他人嬉鬧，或捉弄捉弄那個不好意思正眼看著的女孩子。</p><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>「阿鄒！阿鄒！」</p><p>同學氣喘籲籲地跑到阿鄒跟前，臉上已透出了赤紅。</p><p>「怎麽了啊？」</p><p>阿鄒應道，以爲又出了什麽樓下大白兔跳出來，被小學生捉弄的事情，漫不經心疊著紙飛機——月考的這一周，校內的紙飛機屍骸已經可以與落葉相比，看見環衛工人收拾起來的垃圾堆，連熱衷著比賽的學生們也會不知不覺地低下頭去；然而回到教室，又開始像阿鄒一樣蠢蠢欲動起來。</p><p>同學漲紅了臉——這是他的習慣，深吸一口氣，又低下頭，使得阿鄒莫名其妙；之後，他才擡起了頭，氣一般吐出那句話：「你知道你考得怎麽樣嗎？」</p><p>阿鄒的頭晃了晃，顯得不知所措，他感覺自己的心髒開始跳動起來：「怎麽樣？怎麽樣了？」</p><p>十根手指士兵一樣並排在阿鄒面前，阿鄒頓時感覺自己像統領這些士兵的軍官，挺胸擡頭，心中盡是驕傲的軍官。這十根手指意味著什麽，顯然不言而喻，但阿鄒仍然用做作的將信將疑的口氣，緩緩地問：「什麽意思？」</p><p>同學只是露出一個大大的笑臉。</p><p>「當然是年級第十名了！」</p><p>阿鄒的心髒終于放肆起來了。</p><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>上一次的考試，阿鄒還待在末尾的末尾，不知前十爲何物，因此，剛跨入「前十」的門檻，學生會就吭哧吭哧地跑來要求寫一篇學習經驗演講稿。</p><p>阿鄒看著那個仿佛放著光的稿紙，就像信陵君看著虎符一樣，眼中滿是自滿和得意，簡直使同學無法接近。</p><p>「阿鄒飛黃騰達啦！」</p><p>「喂，人家興許只是運氣好罷了！」</p><p>人群中傳來這樣譏諷的聲音，也許是遭人嫉妒了。</p><p>「喂，阿鄒，過來擲飛機啊！」一個同學喊道。</p><p>「叫我什麽呢！」阿鄒突然從嘴裏冒出這幾個字，把幾個站在窗邊准備「起飛」的同學嚇到了。從剛開學，阿鄒便爲「阿鄒」了，怎料到此時要變卦呢？而阿鄒自己也被嚇到了，他不明白究竟發生了什麽似的，僵硬地續下這段話，「『阿鄒』還是少叫點吧！最好叫我『鄒立』。」</p><p>緊接著阿鄒便埋下頭去，筆耕不辍——不過只要看見他的模樣，便知道他只是在隱藏著什麽內心不爲人知的想法罷了。</p><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>幾個同學偷偷翻開了阿鄒咬著筆頭寫滿了的稿紙。上面寫著的盡是些老生常談，但結合起阿鄒來，實在有些令人啼笑皆非。</p><p>因爲阿鄒確實沒幹過這些事！一想到明日他要坐在主席台上一本正經地敘述，阿鄒的桌前就迸發出一股無法抑制的大笑。</p><h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>奇怪的是，阿鄒竟然真的按照那個可笑的演講稿上行事了。他一瞬間成爲了老師爭著表揚刻苦程度的學生。</p><p>阿鄒的眼睛旁邊都是黑眼圈。</p><h2 id="六"><a href="#六" class="headerlink" title="六"></a>六</h2><p>「我們要拯救阿鄒。」</p><p>「拯救阿鄒會」在月考總結大會之後開玩笑一樣地成立了。</p><p>會員們聚在一起，研究了多個方案。</p><p>一周之後的考試，阿鄒考砸了（依照原來的成績，本不算考砸，只是按著年級前十來算是考砸了）一位會員悄悄走了過來。</p><p>「阿鄒，要玩紙飛機嗎？」</p><p>阿鄒擡起頭來，日光映著他的黑眼圈。他點點頭，瘋了一般地開始與埋伏著的、准備第二方案的會員們競賽。只是第二方案、第三方案，什麽方案都不需要了。</p><blockquote><p>參加月考總結大會有感</p></blockquote><h2 id="己庚年清明後記"><a href="#己庚年清明後記" class="headerlink" title="己庚年清明後記"></a>己庚年清明後記</h2><p>阿鄒現在是我的同班同學了，他畫畫很好看，不過實在太過内向了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; class=&quot;headerlink&quot; title=&quot;一&quot;&gt;&lt;/a&gt;一&lt;/h2&gt;&lt;p&gt;阿鄒的名字是鄒立，但是從很早之前，就沒有人記得他本來的名字了。&lt;/p&gt;&lt;p&gt;阿鄒，阿鄒，叫得確實順口又好聽，只是缺乏一點文藝氣息罷了；阿鄒雖然也明白
+      
+    
+    </summary>
+    
+    
+      <category term="小說" scheme="https://inchei.github.io/blog/tags/%E5%B0%8F%E8%AA%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>卓安比</title>
+    <link href="https://inchei.github.io/blog/2017/11/17/zhuangbi/"/>
+    <id>https://inchei.github.io/blog/2017/11/17/zhuangbi/</id>
+    <published>2017-11-16T16:00:00.000Z</published>
+    <updated>2019-07-03T02:59:15.759Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>在我意識到的時候，我已經被踢下去了——</p><p>我盯著眼前的一片黑暗，想象著在其中朝下的飛翔；但很快我發現自己錯了，只能重重將頭擲落在潮濕而粘稠的凹凸不平的水泥地上。</p><aside>參見《<a href="https://bgm.tv/subject/22478" target="_blank" rel="noopener">改造新人類</a>》第 1 話</aside>我思索踢我的是誰，同時思索我是否已經因爲背後一個腳印變成了笨蛋而無法進行正常的思索，又在思索自己的思索是否已經建立在了無法正常的思索之上。然後我將陷入無盡的莫比烏斯環之中，進行著無意義並具備著使人快樂地沈浸于無意義之中的長途旅行。我行走在我灰色的皮質之間的千溝萬壑裏，自以爲這是我的價值所在，又以爲這是我的妄想。我無法偏向其中任何一邊，只能從莫比烏斯再走向莫比烏斯。<p>終于，交響樂隊的聲音切斷了環。我掉進了暗濕的現實裏，然後站立起來。停止思考，以便于行動。</p><p>頭頂上不知何時有了光。這裏是卓安比的地下——我想。卓安比們的皮鞋和卓安比們的高跟鞋在我的發絲之上進行著危險的雜技般的跳舞，散發出危險的聚會的氣息。</p><p>我的內部湧上一種東西，急迫地想從胃裏湧出。我生出一種想要用自己軟弱無力的一拳迅速朝上擊去的欲望，手心卻自然而然地傳來必然會産生的蔓延開來的痛處，只能蹲在地上咬著牙抑制住。</p><p>那裏是人人都能夠擁有才能的世界。因爲有了才能，所以可以開懷大笑，成爲卓安比的一員。</p><p>我突然想要上去——但是上去之後，我現實的重量一定無法被頭發絲所承受，實在是令人沮喪。唯有一個辦法了：那便是把靈魂抛棄，只留下實體的重量。我的實體輕易地穿透了這個玻璃一般堅硬而透明的地板。</p><p>人們在享受著。我的實體被染上了「享受」的光芒，在卓安比的人流中歡快地行走著。</p><p>我的實體與卓安比們融爲一體，但是個體之中有一絲不和諧之處。看向邊緣的那一端，那裏是漆黑一片沒有色彩的黑卓安比。他們就像路邊蹲著的流浪漢，用特制的眼鏡看見真實。他們厭惡卓安比，卻無法脫出，因爲他們的靈魂進入了這裏，卻因爲重量原因無法完全融入，只得半卡在之中。卓安比們不可能直到黑卓安比們的意思，只知道他們是在聚會裏花了一點時間去洗手間。</p><p>我不是卓安比。我的靈魂想著，拖回了那個實體。</p><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>卓安比的底下所住著的東西被稱作老鼠。</p><p>我是老鼠。</p><p>老鼠們掠奪卓安比的糧倉，以此爲生計。雖然卓安比會攻擊老鼠，但他們中有一部分甚至不在乎糧倉——因爲他們所食用的是半生不熟的魚子醬和牛排。</p><p>跑得慢的老鼠會被打死。我相信我一直是跑得最快、吃得最多的老鼠，並且自豪于此。我驕傲地在自己心中相信自己，並且忽略自己是一只卑微的老鼠。</p><p>但也許這只是青年人所具有的驕傲罷了。我並沒有才能，我僅僅是可以填飽肚子而已。</p><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>黑暗裏，我坐在一個椅子上。</p><p>我摸了一摸。這是一把電椅。</p><p>我拾起皮帶。用兩只手捆綁住腳腕，戴上頭上的電極，用右手捆綁住左手，再用右手捆綁住右手。</p><p>我連死的才能也沒有。</p><p>現在，誰來爲我扳下開關？</p><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>我還有殺死別人的才能。</p><p>我看見一個人站在懸崖邊緣看著下面。</p><p>「你在幹什麽？」</p><p>「我在想卓安比的傳說。」那人用平靜的目光盯著漆黑，仿佛看見了幽長的隧道通向那個地方。</p><p>于是我擡起了腿。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;一&quot;&gt;&lt;a href=&quot;#一&quot; class=&quot;headerlink&quot; title=&quot;一&quot;&gt;&lt;/a&gt;一&lt;/h2&gt;&lt;p&gt;在我意識到的時候，我已經被踢下去了——&lt;/p&gt;&lt;p&gt;我盯著眼前的一片黑暗，想象著在其中朝下的飛翔；但很快我發現自己錯了，只能重重將頭擲落在潮濕而粘稠
+      
+    
+    </summary>
+    
+    
+      <category term="小說" scheme="https://inchei.github.io/blog/tags/%E5%B0%8F%E8%AA%AA/"/>
+    
+  </entry>
+  
+</feed>
