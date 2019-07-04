@@ -9,6 +9,7 @@
 
     <title>Inchei Chan</title>
 
+    <meta name="author" content="Inchei Chan">
     <link rel="icon shortcut" type="image/ico" href="favicon.ico">
     <link rel="stylesheet" href="assets/styles/style.css" />
 
@@ -19,9 +20,10 @@
     <script src="assets/scripts/typed.js"></script>
     <script src="assets/scripts/chaffle.min.js"></script>
     <script src="assets/scripts/smoothscroll.min.js"></script>
+    <script src="assets/scripts/jquery.interactive_bg.min.js"></script>
 
-    <script src='assets/scripts/nprogress.js'></script>
-    <link rel='stylesheet' href='assets/styles/nprogress.css'/>
+    <script src="assets/scripts/nprogress.js"></script>
+    <link rel="stylesheet" href="assets/styles/nprogress.css"/>
     <script>
       $(document).ready(function(){  
         NProgress.start();  
@@ -32,13 +34,18 @@
     </script>
 
     <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon-precomposed" href="blog/favicon.png"/>
+    <meta name="msapplication-TileColor" content="#78C2C4"/>
+    <meta name="msapplication-TileImage" content="blog/favicon.png"/>
     <meta name="theme-color" content="#78C2C4">
 </head>
 
 <body>
-    
-<main>
-    <center>
+
+<div class="bg">
+    <main>
         <div id="banner">Inchei <span id="spb"></span></div>
         <script>
             $(function() {
@@ -46,7 +53,7 @@
                     strings: ["Chan", "Student", "INT/FP", "Otaku", "Coder", ".github.io"],
                     typeSpeed: 100,
                     loop: false,
-                    startDelay: 0
+                    startDelay: 100
                 });
             });
         </script>
@@ -62,8 +69,8 @@
             </li>
         </ul>
         <a href="javascript:" id="more">MORE</a>
-    </center>
-</main>
+    </main>
+</div>
 <footer>
     <article id="about">
         <h1>BIO.</h1>
@@ -72,8 +79,8 @@
         <p>As a matter of fact, the pronunciation of "inchei" should be [ˈ<em>t</em>iŋkei] just like my name in real life pronounced in Cantonese. To meet Chinese <span lang="zh-Hant" style="font-family: serif;">"茵陳"</span>, which means wormwood, a fallen star in <i>Revelation</i>, it was transformed into what it is like now.</p>
     </article>
     <article>
-        <h1>PROGRAMMING</h1>
-        <p>I have a father who is a software engineer. However, he never taught me about programming, and I became interested in it by myself. Because of this, I'm capable of HTML and CSS for they're easy to learn.</p>
+        <h1>CODING</h1>
+        <p>I have a father who is a software engineer. However, he never taught me about programming, and I became interested in it by myself. Because of this, I'm more good at HTML and CSS for they're easy to learn.</p>
         <p>And as the policy years ago didn't allow me to go to a proper school, I have no chance to take part in any algorithm competition. Luckily, I prefer to develop apps rather than win those prizes. </p>
         <div id="abili-chart" style="width: 100%; height: 10em; font-size: 100%;"></div>
         <script>
@@ -102,7 +109,7 @@
             },
             xAxis: [{
                 type: 'category',
-                data: ['HTML/CSS', 'Javascript', 'Python','PHP', 'Shell', 'C', 'C++', 'Arduino'],
+                data: ['HTML/CSS', 'Javascript', 'Shell', 'C', 'C++', 'Rust'],
                 axisTick: {
                     alignWithLabel: true
                 }
@@ -113,7 +120,7 @@
             series: [{
                 type: 'bar',
                 barWidth: '60%',
-                data: [90, 50, 20, 20, 30, 10, 10, 15]
+                data: [90, 50, 20, 20, 30, 10, 10, 0]
             }]
         };;
         if (option && typeof option === "object") {
@@ -127,6 +134,8 @@
     <p><a href="mailto:inchei@protonmail.com" title="inchei@protonmail.com">My email</a> is available as well.</p>
     </article>
 </footer>
+    
+
 <script>
     var elements = document.querySelectorAll('[data-chaffle]');
 
