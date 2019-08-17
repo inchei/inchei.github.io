@@ -1,9 +1,9 @@
 $(function() {
     //Set buttons
-    $('#more').click(() => {
+    /*$('#more').click(() => {
         document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
         $('#spb').text(':)');
-    });
+    });*/
 
     //Set the background
     var random = Math.floor(Math.random() * 13);
@@ -75,24 +75,24 @@ $(function() {
       });
 
     $(window).resize(function() {
-      $(".ibg-bg").css({
+      $(".ibg-bg, html, body, main").css({
         width: $(window).outerWidth(),
         height: $(window).outerHeight()
-      })
+      });
     })
 
     //Gradient background
-    $(window).scroll(function() {
+    /*$(window).scroll(function() {
         var opacity = Math.floor(document.documentElement.scrollTop / 10) + 40;
         if (opacity > 90)
             opacity = 90;
         else
             $('main').css('background', 'rgba(20, 20, 20, .' + String(opacity));
-    });
+    });*/
 
     //Go to the top of the page when refreshing
-    window.onbeforeunload = function() {
+    /*window.onbeforeunload = function() {
         document.documentElement.scrollTop = 0;
         document.body.scrollTop = 0;
-    }
+    }*/
 });

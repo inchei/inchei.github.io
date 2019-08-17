@@ -147,6 +147,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/plugins/tiddlywiki/markdown/new-markdown-button</li>
 
+<li>$:/config/Plugins/Disabled/$:/languages/zh-Hant</li>
+
 <li>$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/markdown</li>
 
 <li>$:/config/RelinkOnRename</li>
@@ -435,6 +437,9 @@ Error message and password prompt
 </div>
 <div created="20190817055834912" creator="inchei" modified="20190817055834912" modifier="inchei" title="$:/config/PageControlButtons/Visibility/$:/plugins/tiddlywiki/markdown/new-markdown-button">
 <pre>hide</pre>
+</div>
+<div created="20190817075333320" creator="inchei" modified="20190817075336997" modifier="inchei" title="$:/config/Plugins/Disabled/$:/languages/zh-Hant">
+<pre>no</pre>
 </div>
 <div created="20190817060628579" creator="inchei" modified="20190817060655452" modifier="inchei" title="$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/markdown">
 <pre>no</pre>
@@ -13559,8 +13564,8 @@ Error message and password prompt
 <div created="20190816142302903" modified="20190817051919173" title="$:/SiteTitle">
 <pre>Notebook</pre>
 </div>
-<div created="20190817060636489" creator="inchei" modified="20190817073121411" modifier="inchei" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/markdown">
-<pre>yes</pre>
+<div created="20190817060636489" creator="inchei" modified="20190817075553463" modifier="inchei" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/markdown">
+<pre>no</pre>
 </div>
 <div created="20190817054752676" creator="inchei" modified="20190817054752676" modifier="inchei" title="$:/state/showeditpreview">
 <pre>yes</pre>
@@ -13586,7 +13591,7 @@ Error message and password prompt
 <div created="20190817052037554" creator="inchei" modified="20190817052037554" modifier="inchei" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
-<div created="20190816142611041" creator="inchei" modified="20190817060652275" modifier="inchei" title="$:/state/tab--86143343">
+<div created="20190816142611041" creator="inchei" modified="20190817075551073" modifier="inchei" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
 </div>
 <div created="20190817052049057" creator="inchei" modified="20190817052049057" modifier="inchei" title="$:/state/tab--959111941">
@@ -13598,7 +13603,7 @@ Error message and password prompt
 <div created="20190817051956506" creator="i" modified="20190817051957148" modifier="inche" title="$:/status/UserName">
 <pre>inchei</pre>
 </div>
-<div created="20190817073254382" creator="inchei" list="目錄" modified="20190817073254382" modifier="inchei" title="$:/StoryList">
+<div created="20190817075308305" creator="inchei" list="[[TCP / IP]]" modified="20190817075600474" modifier="inchei" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -14540,7 +14545,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <pre>!! 參考資料
 * 《ECMAScript 6 入門》</pre>
 </div>
-<div created="20190817052344795" creator="inchei" modified="20190817072506826" modifier="inchei" tags="comupter" title="TCP / IP">
+<div created="20190817052344795" creator="inchei" modified="20190817081620374" modifier="inchei" tags="comupter" title="TCP / IP">
 <pre>|層數 | OSI 參考模型 | TCP / IP | 概述 | 硬件組成 | TCP /IP 中的軟件實現 |h
 |!7|應用層|應用層|針對特定應用的協議|4~7 層交換機&lt;br /&gt;（網關等）|應用程序|
 |!6|表示層|~|數據格式的轉換|~|~|
@@ -14566,11 +14571,16 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 * 調制解調器（也就是''貓''）負責將數字信號轉換為模擬信號。
 
-!!網絡層
+!!網絡層（IP）
+''IP 協議''使用'' IP 地址''。IP 地址能夠讓路由器查詢''路由控制表''從而將數據轉發給指定的 MAC 地址，而在同一鏈路内轉發數據時不需 IP 地址。
+
+由於不同數據鏈路的不同 MTU（最大傳輸單位），數據會在數據鏈路上被分割成更小的部分，但對於網絡層來説是無差別的，因此 IP 可以實現''數據鏈路的抽象化''。
+
+IP ''面向無連接''，即是説，IP 發送數據時將不會先建立連接。爲了防止文件丟失，網絡層的 TCP 采用面向有連接型。
 
 !!傳輸層
 
-!!應用層
+!!應用層（HTTP）
 
 !!網絡的分類
 
@@ -14589,7 +14599,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 * 《圖解 TCP / IP》
 * 《TCP / IP 詳解》</pre>
 </div>
-<div created="20190816142409023" creator="inchei" modified="20190817073307473" modifier="inchei" tags="meta" title="目錄">
+<div created="20190816142409023" creator="inchei" modified="20190817075302106" modifier="inchei" tags="meta" title="目錄">
 <pre>!! 筆記
 * 計算機
 ** [[TCP / IP]]
@@ -14603,7 +14613,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 # 加深印象
 
 !! 你看見錯誤了嗎？
-請到 GitHub 上提 issue 告訴我，感激不盡：https://github.com/inchei/inchei.github.io/issues/new</pre>
+請到 ~GitHub 上[[提 issue|https://github.com/inchei/inchei.github.io/issues/new]] 告訴我，謝謝！</pre>
 </div>
 <div created="20190817052548793" creator="inchei" modified="20190817052620356" modifier="inchei" tags="philosophy" title="哲學">
 <pre>!! 參考資料
