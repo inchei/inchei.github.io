@@ -3,7 +3,7 @@ layout: page
 title: 關於
 navlevel: header
 ---
-一個閉關修煉中的高中生。
+一個閉關修煉中高中生的博客。請下載思源宋體以獲得正常觀感，否則自帶宋體奇醜無比。
 
 ## 日志
 ``090501`` 改爲 [hexo](https://hexo.io/)，使用魔改過後的 [element](https://artifact.me/) 主題，順便因此學會了一些 [less](http://lesscss.org/)、[Django](https://www.djangoproject.com/) 和某些 <abbr title="比如著重號和視差滾動背景之類的">CSS tricks</abbr>。大概是中考前最後一次用 GitHub 了。
