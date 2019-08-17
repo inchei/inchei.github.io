@@ -3,7 +3,7 @@ layout: page
 title: 關於
 navlevel: header
 ---
-[一個普通高中生](https://inchei.github.io)的自留地。
+一個閉關修煉中的高中生。
 
 ## 日志
 ``090501`` 改爲 [hexo](https://hexo.io/)，使用魔改過後的 [element](https://artifact.me/) 主題，順便因此學會了一些 [less](http://lesscss.org/)、[Django](https://www.djangoproject.com/) 和某些 <abbr title="比如著重號和視差滾動背景之類的">CSS tricks</abbr>。大概是中考前最後一次用 GitHub 了。
@@ -23,7 +23,7 @@ navlevel: header
 
 > 什麽時候更新？
 
-雖然已經被本校高中錄取，但即便作爲藉口也好，不論初三還是高一的課程都十分繁忙，因此更新是不定期的。
+除長假外最短的頻率是兩周一次。<s>目前看來半年一次就不錯了吧。</s>如果想看更高頻率的更新，可以去[我的 TiddlyWiki](https://inchei.github.io/note) 看一下，不過那裏沒什麽東西啦。
 
 > 妳的簡繁轉換、標點符號有錯！
 
@@ -31,7 +31,7 @@ navlevel: header
 
 > 我要評論！
 
-不好意思，還麻煩您到上方給過的[主頁鏈接](https://inchei.github.io/)裏找我的聯係方式私下評論。畢竟太過荒涼，評論區空著也太慘了<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif" />。
+不好意思，還麻煩您到上方給過的[主頁鏈接](https://inchei.github.io/)裏找我的聯係方式私下評論或者到 [GitHub issues](https://github.com/inchei/inchei.github.io/issues) 裏評論。畢竟太過荒涼，評論區空著也太慘了<img alt="bgm38" style="display:inline-block" src="https://bgm.tv/img/smiles/tv/15.gif" />。
 
 ## 鳴謝
 編寫博客時，參考或使用了以下上文未提及的開源項目：
