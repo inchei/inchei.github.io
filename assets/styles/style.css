@@ -45,7 +45,7 @@ body {
     z-index: 0;
 }
 
-main {
+header {
     background: rgba(0, 0, 0, .35);
     position: fixed;
     left: 0;
@@ -55,7 +55,7 @@ main {
     text-align: center;
 }
 
-main a {
+header a {
     text-decoration: none;
     color: #fff;
 }
@@ -97,26 +97,8 @@ article a:hover {
     -o-transition: all 400ms ease;
     transition: all 400ms ease;
 }
-
-#more {
-    font-size: 1.2em;
-    color: var(--m-color);
-    color: #78C2C4;
-    text-decoration: none;
-    padding: 5px 8px;
-    display: inline-block;
-}
-
-#more::after {
-    content: "";
-    background: var(--m-color);
-    background: #78C2C4;
-    width: 0;
-    height: 2px;
-    display: block;
-    transition: width 300ms ease-in-out;
-}
-
+*/
+/*
 @media screen and (max-width: 740px) {
     article {
         width: calc(100% - 4em);
@@ -181,10 +163,27 @@ li a {
     position: relative;
     left: -20px;
 }
-/*
+
+#more {
+    color: var(--m-color);
+    color: #78C2C4;
+    padding: 5px 8px;
+    display: inline-block;
+}
+
+#more::after {
+    content: "";
+    background: var(--m-color);
+    background: #78C2C4;
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: width 300ms ease-in-out;
+}
+
 #more:hover::after {
     width: 100%;
-}*/
+}
 
 @font-face {
 

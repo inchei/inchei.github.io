@@ -68,14 +68,14 @@ $(function() {
 
     $(".bg").interactive_bg({
         strength: 30,
-        scale: 1.05,
+        scale: 1.03,
         animationSpeed: "100ms",
         contain: true,
         wrapContent: false
       });
 
     $(window).resize(function() {
-      $(".ibg-bg, html, body, main").css({
+      $(".ibg-bg, html, body, header").css({
         width: $(window).outerWidth(),
         height: $(window).outerHeight()
       });
@@ -87,7 +87,7 @@ $(function() {
         if (opacity > 90)
             opacity = 90;
         else
-            $('main').css('background', 'rgba(20, 20, 20, .' + String(opacity));
+            $('header').css('background', 'rgba(20, 20, 20, .' + String(opacity));
     });*/
 
     //Go to the top of the page when refreshing
