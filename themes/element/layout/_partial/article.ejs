@@ -7,9 +7,8 @@
       <%= post.title %>
     </h1>
     <div class="article-meta">
-      發佈於 
       <time class="article-time" datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
-        <%= date(post.date, "MMM D, YYYY") %>
+        <%= dateLunar(date(post.date)) %>
       </time><!---
       <% if (post.updated){ %>
       ，更新於  <time class="article-time" datetime="<%= date_xml(post.updated) %>" itemprop="dateUpdated">

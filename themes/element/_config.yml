@@ -3,7 +3,7 @@ description: Private theme for artifact.me
 keywords: hexo,theme,artifact,otakism
 
 # Author
-author_avatar: /img/avatar.png
+author_avatar: /img/avatar.jpg
 
 # Search
 search: 
@@ -78,4 +78,4 @@ links:
   description: 好像很忙碌的北郵萵苣
 - name: 雲霞
   url: http://kumokasumi.lofter.com/
-  description: 萌百下車伊始行政員
+  description: 可靠的萌百行政員
