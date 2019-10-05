@@ -56,6 +56,8 @@ var customSearch;
 	  $('.site-wrapper .overlay').on('click', closeBio);
 	  $('.window-nav, .go-comment, .site-toc a').on('click', scrolltoElement);
 	  $('.sidebar-switch .dark-btn').on('click', switchSidebarTab);
+	  $('.name').on('click', closeBio);
+	  $('.name').on('click', ()=> {window.location.href = '/blog/about'});
 	  
 	  setTimeout(function() {
 	    $('#loading-bar-wrapper').fadeOut(500);
