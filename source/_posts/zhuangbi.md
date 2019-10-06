@@ -2,7 +2,7 @@
 layout: post
 date: 2017-11-17
 title: 卓安比
-tags: 小說
+tags: 小説
 ---
 ## 一
 在我意識到的時候，我已經被踢下去了——
