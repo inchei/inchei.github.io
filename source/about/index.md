@@ -3,7 +3,9 @@ layout: page
 title: 關於
 navlevel: header
 ---
-一個閉關修煉中高中生的博客。
+一個閉關修煉中高中生的博客，某衡水式學校就讀中。<span class="heimu">其實是 JK。<s>莫名羞恥。</s></span>
+
+并不在繁體使用地區，繁體的原因是繁體好看，但是微軟自帶的輸入法繁體功能較弱，可能有部分沒有矯正為正確的格式，望指出。
 
 ## 日志
 ``090501`` 改爲 [hexo](https://hexo.io/)，使用魔改過後的 [element](https://artifact.me/) 主題，順便因此學會了一些 [less](http://lesscss.org/)、[Django](https://www.djangoproject.com/) 和某些 <abbr title="比如著重號和視差滾動背景之類的">CSS tricks</abbr>。大概是中考前最後一次用 GitHub 了。

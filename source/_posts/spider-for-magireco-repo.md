@@ -1,0 +1,90 @@
+---
+layout: post
+title: 爬蟲試水：自動下載《魔法速報》及其他
+date: 2020-02-23
+tags: 瞎折騰
+---
+網課效率過低，偷偷學起了 Python。從 12 日到現在，Python 多少也學了十天了。首先把[廖雪峰的 Python 教程](https://www.liaoxuefeng.com/wiki/1016959663602400)啃到了 IO 編程一節，然後又在知乎上看了一些爬蟲原理的綜述，接著又讀了 requests 和 BeautifulSoup 的文檔。對於一個總想著實際運用的人來説，其實也挺難熬的：一開始就定下了目標——下載曾經花很長時間在百度貼吧才陸陸續續看完的《魔法☆速报》。
+
+《魔法☆速报》在[魔法紀錄中文維基](https://magireco.moe/wiki/%E9%A6%96%E9%A1%B5)上有專門的頁面，理論上可以在此頁上一個個看過去，然而文件大小較大，難以舒暢地觀看，最好的辦法也許是全部下載下來再離綫觀看。出於學習效率的考慮，我直接跳過了 urllib 的學習而轉向 requests，而 BeautifulSoup 則是因爲習慣了 CSS 抽象化的寫法而采用。忽略了效率，寫了一個自動下載來自維基的漫畫的爬蟲。
+
+```python
+import requests
+from bs4 import BeautifulSoup
+import os
+import time
+
+def parser(url):
+    return BeautifulSoup(requests.get(url).content, 'html.parser')
+
+# 針對 MediaWiki 的文件頁
+def downloadImg(url):
+    # 找到文件頁的 原始文件 鏈接
+    img_entry = parser(url).find('a', class_='internal')
+    img_url = 'https://magireco.moe' + img_entry['href']
+    img_title = img_entry['title']
+    img = requests.get(img_url, stream=True)
+    if img.status_code == 200:
+        print('downloading...')
+        start = time.time()
+        with open('./' + img_title, 'wb') as f:
+            f.write(img.content)
+        end = time.time()
+        print('%s is downloaded in %s.' % (img_title, end - start))
+    else:
+        print(img.status_code)
+
+if __name__=='__main__':
+    # https://magireco.moe/wiki/魔法☆速报
+    url = 'https://magireco.moe/wiki/%E9%AD%94%E6%B3%95%E2%98%86%E9%80%9F%E6%8A%A5'
+    img_list = parser(url).find_all('a', class_='image')
+    for img in img_list:
+        downloadImg('https://magireco.moe' + img['href'])
+```
+
+寫完之後，發現效果并不理想：下載速度太慢了。目前還需要再研究一下多綫程的運用，之後再把結果分享出來。
+
+除此之外，順便也寫了一個用於下載貼吧圖片的爬蟲，把圓吧的魔女設定卡片都下載了下來，因爲文件大小較小，所以下載起來清爽了不少。把保存下來的卡片儲存到了[藍奏雲上](https://www.lanzous.com/i9lxnhi)。
+
+```python
+import os
+import requests
+from bs4 import BeautifulSoup
+import time
+
+def parser(url):
+    return BeautifulSoup(requests.get(url).content, 'html.parser')
+
+def download_img(url):
+    img_list = parser(url).find_all('img', class_='BDE_Image')
+    for img in img_list:
+        img_url = requests.get(img['src'], stream=True)
+        img_name = os.path.split(img['src'])[1]
+        with open('./' + img_name, 'wb') as f:
+            start = time.time()
+            f.write(img_url.content)
+            end = time.time()
+            print('%s is downloaded in %s' % (img_name, end - start))
+
+if __name__=='__main__':
+    # 魔女卡片的帖子鏈接
+    url = 'https://tieba.baidu.com/p/1180021348?see_lz=1'
+    page_container = parser(url).find_all('li', class_='l_reply_num')[0]
+    page = page_container.find_all('span')[1].text
+    for i in range(1, int(page) + 1):
+        urli = url + '&pn=' + str(i)
+        download_img(urli)
+        print('Page %s is done.' % i)
+    print('done.')
+```
+
+![下載下來的卡片](https://i.loli.net/2020/02/23/IK3pZ916VtjMnHX.png)
+
+總而言之，Python 的確是一個寫爬蟲的絕佳工具——曾經嘗試用 Javascript 來下載，感受尤爲明顯。關於爬蟲，計劃還要學習的東西還挺多的：
+
+* 反爬應對措施
+* 多綫程
+* 斷點續傳
+* 超時措施
+
+邊完善這兩個脚本，邊學習爬蟲。Python 的學習比起 JavaScript 來講，雖然學習周期要更長，但做出一點成果之後，成就感相對也就高了起來。希望今後能寫出更多有用的工具。<s>極客化警告</s>
