@@ -60,76 +60,16 @@ header a {
     color: #fff;
 }
 
-/*article {
-    background: #000;
-    color: rgba(255, 255, 255, .8);
-    width: 45%;
-    margin: 0 calc((55% - 4em) / 2);
-    padding: 2em;
-    margin-bottom: 2em;
-    border-radius: 3px;
-    font-size: 20px
-}
-
-footer {
-    width: 100%;
-    position: absolute;
-    top: 100vh;
-}
-
-h1 {
-    padding-left: 10px;
-    border-left: .2em solid var(--m-color);
-    border-left: .2em solid #78C2C4;
-}
-
-article a {
-    text-decoration: none;
-    border-bottom: 1px dotted;
-    color: rgba(255, 255, 255, .8);
-}
-
-article a:hover {
-    color: var(--m-color);
-    color: #78C2C4;
-    -moz-transition: all 400ms ease;
-    -webkit-transition: all 400ms ease;
-    -o-transition: all 400ms ease;
-    transition: all 400ms ease;
-}
-*/
-/*
-@media screen and (max-width: 740px) {
-    article {
-        width: calc(100% - 4em);
-        left: 0;
-        border-radius: 0;
-        margin: 0;
-        padding: 2em;
-        margin-bottom: 2em;
-    }
-    article:last-child {
-        margin-bottom: 0;
-    }
-}
-*/
-
 @media screen and (min-width: 361px) and (max-width: 447px) {
     body {
         font-size: 20px;
     }
-    /*article {
-        font-size: 18px;
-    }*/
 }
 
 @media screen and (max-width: 360px) {
     body {
         font-size: 18px;
     }
-    /*article {
-        font-size: 16px;
-    }*/
 }
 
 #banner {
@@ -186,16 +126,10 @@ li a {
 }
 
 @font-face {
-
     font-family: 'Trajan Pro';
-
     src: url('../font/TrajanPro-Regular.woff2') format('woff2'),
-
-        url('../font/TrajanPro-Regular.woff') format('woff');
-
+         url('../font/TrajanPro-Regular.woff') format('woff');
     font-weight: normal;
-
     font-style: normal;
-
 }
 

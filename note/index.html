@@ -403,6 +403,8 @@ Error message and password prompt
 
 <li>$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary</li>
 
+<li>$:/temp/search</li>
+
 <li>$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.20/index.html</li>
 
 <li>$:/theme</li>
@@ -420,6 +422,8 @@ Error message and password prompt
 <li>哲學史小記</li>
 
 <li>ES6</li>
+
+<li>Python</li>
 
 <li>TCP / IP</li>
 
@@ -13610,7 +13614,7 @@ Error message and password prompt
 <div created="20190817051956506" creator="i" modified="20190817051957148" modifier="inche" title="$:/status/UserName">
 <pre>inchei</pre>
 </div>
-<div created="20190830224357395" creator="inchei" list="目錄 哲學史小記" modified="20190830231954337" modifier="inchei" title="$:/StoryList">
+<div created="20200224044749515" creator="inchei" list="目錄" modified="20200224051755363" modifier="inchei" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -13626,7 +13630,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/ASUS/GitHub/inchei.github.io/note/index.html&quot;
+            &quot;text&quot;: &quot;file:///D:/GitHub/inchei.github.io/note/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -13646,7 +13650,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/ASUS/GitHub/inchei.github.io/note/index.html&quot;
+            &quot;text&quot;: &quot;/D:/GitHub/inchei.github.io/note/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -14430,6 +14434,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20190816143145246" creator="inchei" modified="20190817060723192" modifier="inchei" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre></pre>
 </div>
+<div created="20200224051911579" creator="inchei" modified="20200224051913618" modifier="inchei" title="$:/temp/search">
+<pre></pre>
+</div>
 <div created="20190816143334546" modified="20190816143334546" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.20/index.html" url="https://tiddlywiki.com/library/v5.1.20/index.html">
 <pre>loaded</pre>
 </div>
@@ -14551,14 +14558,19 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20190817055941900" creator="inchei" modified="20190817055957827" modifier="inchei" title="$:/view">
 <pre>zoomin</pre>
 </div>
-<div created="20190816142409023" creator="inchei" modified="20190830231946932" modifier="inchei" tags="meta" title="目錄">
+<div created="20190816142409023" creator="inchei" modified="20200224052837326" modifier="inchei" tags="meta" title="目錄">
 <pre>!! 筆記
 * 計算機
 ** [[TCP / IP]]
 ** [[ES6]]
+** [[Python]]
 * [[哲學史小記]]
 
-!! 索引
+!! 資料
+* 動畫考據
+** 《魔法少女小圓》
+*** [[PSP 版的悲嘆之種|https://www.lanzous.com/i9mv9pg]]
+*** [[魔女卡片|https://www.lanzous.com/i9lxnhi]]
 
 !! 存在的意義
 # 快速查閲
@@ -14778,6 +14790,685 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20190817052950510" creator="inchei" modified="20190817053028668" modifier="inchei" tags="comupter" title="ES6">
 <pre>!! 參考資料
 * 《ECMAScript 6 入門》</pre>
+</div>
+<div created="20200224044853783" creator="inchei" modified="20200224052324067" modifier="inchei" tags="comupter" title="Python">
+<pre>日期：2020-2-14 ~ 
+
+!! 説明
+* 這不是學習 Python，衹是在學習過程中的筆記。
+* 其中包含一些類僞代碼的代碼以説明。
+!! 目錄
+* 函數
+** 遞歸函數
+* 高級特性
+** 切片
+** 生成器
+* 函數式編程
+** 高階函數
+*** map / reduce
+*** filter
+** 返回函數
+** 裝飾器
+** 偏函數
+* 面向對象編程
+* 錯誤、調試和測試
+* IO 編程
+* 備忘錄
+** 錯誤類型
+* 參考資料
+
+```python
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# 判斷是否可迭代
+from collections.abc import Iterator
+# reduce
+from functools import reduce
+# 精確計算
+from decimal import Decimal, localcontext
+```
+!! 函數
+!!! 遞歸函數
+```python
+# REVIEW 漢諾塔
+def move(n, a, b, c):
+    if n == 1:
+        print(a, '--&gt;', c)
+    else:
+        move(n - 1, a, c, b)
+        print(a, '--&gt;', c)
+        move(n - 1, c, a, b)
+```
+!! 高級特性
+!!! 切片
+```python
+# 回數
+def is_palindrome(n):
+    return str(n) == str(n)[::-1]
+```
+!!! 生成器
+```python
+# 斐波那契數列
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n &lt; max:
+        yield b
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+
+# 楊輝三角形
+def triangles(max):
+    i, L = 0, [1]
+    while i &lt; max:
+        yield L
+        L = [1] + [L[n] + L[n+1] for n in range(len(L) - 1)] + [1]
+        i = i + 1
+    return 'done'
+```
+!! 函數式編程
+!!! 高階函數
+!!!! map / reduce
+```python
+# 字符串轉浮點數
+def str2float1(s):
+    def char2num(s):
+        DIGITS = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}
+        return DIGITS[s]
+    a = s[::-1].index('.')
+    return reduce(lambda x, y: 10*x+y, map(char2num, s.replace('.', '')))/10**a
+
+def str2float2(s):
+    def char2num(s):
+        DIGITS = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}
+        return DIGITS[s]
+    a1 = s.split('.')[0]
+    a2 = s.split('.')[1]
+    b1 = reduce(lambda x, y: x*10+y, map(char2num, a1))
+    b2 = reduce(lambda x, y: x/10+y, map(char2num, a2[::-1]))
+    return b1+b2/10 # 此處可能出現浮點數問題
+```
+!!!! filter
+```python
+# 埃氏篩法
+def _odd_iter():
+    n = 1
+    while True:
+        n = n + 2
+        yield n
+
+def _not_divisible(n):
+    return lambda x: x % n &gt; 0
+
+def primes():
+    yield 2
+    it = _odd_iter()
+    while True:
+        n = next(it)
+        yield n
+        it = filter(_not_divisible(n), it)
+```
+!!! 返回函數
+```python
+# REVIEW 閉包
+def createCounter():
+    i = 0
+    def counter():
+        nonlocal i # 聲明 i 來自父級函數
+        i += 1
+        return i
+    return counter
+```
+!!! 裝飾器
+```python
+# REVIEW 裝飾器
+import time, functools
+
+# NOTE 運行函數時打印運行時間
+def metric(fn):
+    @functools.wraps(fn)
+#  **args 和 *kw 的含义
+    def wrapper(*args, **kw):
+        start = time.time()
+        func = fn(*args, **kw)
+# NOTE 防止執行兩次
+        end = time.time()
+        print('%s executed in %s ms' % (fn.__name__, end - start))
+        return func
+    return wrapper
+
+# 在函數前後添加字段
+def caller(fn):
+    @functools.wraps(fn)
+    def decorator(*args, **kw):
+        print('begin call %s' % fn.__name__)
+        func = fn(*args, **kw)
+        print('end call %s' % fn.__name__)
+        return func
+    return decorator
+
+ # @log('str') 和 @log 均可用
+def log(text):
+    if isinstance(text, str): # text 為字符串 =&gt; log
+        def decorator(fn):
+            @functools.wraps(fn)
+            def wrapper(*args, **kw):
+                print('%s %s():' % (text, fn.__name__))
+                return fn(*args, **kw)
+            return wrapper
+        return decorator
+    else: # 沒有 () =&gt; text 默認為下方函數
+        @functools.wraps(text)
+        def wrapper(*args, **kw):
+            print('call %s():' % text.__name__)
+            return text(*args, **kw)
+        return wrapper 
+```
+!!! 偏函數
+```python
+ # 偏函數
+int2 = functools.partial(int, base=2) 
+!! 模塊
+# 模塊
+# 標準模板
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+' 文檔注釋 ' # 用 __doc__ 訪問
+
+__author__ = '作者名'
+
+def test():
+    args = sys.argv # 獲取命令行所有參數
+    pass
+
+# 衹在命令行運行時成立
+# 被引用時，__name__ 為模塊名
+if __name__=='__main__': 
+    test()
+
+
+# __xxx__: 特殊變量（不用於命名）
+# __xxx: 非公開變量（外部不需要引用）
+```
+!! 面向對象編程
+```python
+# 面向對象編程（OOP）：數據封裝、繼承、多態
+# 面向對象高級編程：多重繼承（次父類命名后加 MixIn）、定制類、元類
+# from types import MethodType
+# class.method = MethodType(method, class)
+# 定制類：__class__
+
+ class 人類(object):
+    人數 = 0
+    # 限定實例的屬性，只對當前類實例起作用
+    __slots__ = ('__名字','技能')
+
+    def __init__(self, 名字, 技能):
+        self.__名字 = 名字
+        self.技能 = 技能
+        人類.人數 += 1
+
+    # 找不到屬性時調用，當返回函數時需 obj.aatr()
+    def __getattr__(self, attr):
+        if attr == '名字':
+            return self.__名字
+        return AttributeError('人類沒有 %s 這種屬性，難道他已經不做人了嗎？' % attr)
+
+    # &gt;&gt;&gt;print(人類對象)
+    def __str__(self):
+        return '這是一個人類對象，名字叫 %s。' % self.__名字
+    # &gt;&gt;&gt;人類對象
+    __repr__ = __str__ 
+    
+    def 吃東西(self):
+        print('%s 吃了些飯。' % self.__名字)
+
+    def 使用技能(self):
+        print('%s 使用了技能：%s！' % (self.__名字, self.技能))
+
+    @property # 把 名字 變爲屬性操作（getter），如 哥倫布.名字
+    def 名字(self):
+        return self.__名字
+    
+    @名字.setter # 設定屬性 名字，如果沒有 setter，則屬性只讀
+    def 名字(self, 新名字): # __attr 可以用於檢查是否合法
+        if isinstance(新名字, str):
+            print('%s 把名字改爲了 %s。' % (self.__名字, 新名字))
+            self.__名字 = 新名字
+        else:
+            raise TypeError('%s 被民政局拒絕改名，因爲姓名不合法。' % self.__名字)
+
+class 動物(object):
+    pass
+
+# NOTE 此處不能用 __名字 ，因爲其為私有參數
+class 意大利人(人類, 動物):# 多重繼承
+    __slots__ = ()
+    def 吃東西(self):
+        print('%s 吃了些意大利麵。' % self.名字)
+
+    # 意大利人()
+    # callable(意大利人()) =&gt; True
+    def __call__(self):
+        print('這是意大利人')
+
+哥倫布 = 意大利人('哥倫布', '航海') 
+
+
+type(obj)
+types.FunctionType
+types.BuiltinFunctionType
+types.LambdaType
+types.GeneratorType
+
+isinstance(obj, type)
+
+dir(obj) # 返回所有屬性和方法
+
+# 定制類
+obj.__len__() == len(obj)
+
+getattr(obj, attr)
+setattr(obj, attr)
+hasattr(obj, attr)
+
+ # 類的方法實現斐波那契數列
+class Fib(object):
+    def __init__(self):
+        self.a, self.b = 0, 1
+    
+    def __iter__(self):
+        return self # 迭代對象
+
+    def __next__(self):
+        self.a, self.b = self.b, self.a + self.b
+        if self.a &gt; 1000:
+            raise StopIteration()
+        return self.a
+
+    # 直接引用：Fib()[n]
+    def __getitem__(self, n):# __setitem__, __delitem__
+        if isinstance(n, int):# n 是索引
+            a, b = 1, 1
+            for x in range (n):
+                a, b = b, a + b
+            return a
+        if isinstance(n, slice):# n 是切片（不完全實現）
+            start = n.start
+            stop = n.stop
+            if start is None:
+                start = 0
+            a, b = 1, 1
+            L = []
+            for x in range(stop):
+                if x &gt;= start:
+                    L.append(a)
+                a, b = b, a + b
+            return L
+ 
+
+# REST API
+ class Chain(object):
+
+    def __init__(self, path=''):
+        self._path = path
+
+    def __getattr__(self, path):
+        return Chain('%s/%s' % (self._path, path))
+
+    def __call__(self, path):
+        return Chain('%s/%s' % (self._path, path))
+
+    def __str__(self):
+        return self._path
+
+    __repr__ = __str__
+
+print(Chain().users('homura').repos)
+ 
+
+# 枚舉類（枚举常量），不會被誤改
+ from enum import Enum, unique
+
+Month = Enum('Month', ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'))
+
+for name, member in Month.__members__.items():
+    print(name, '=&gt;', member, ',', member.value)
+
+# 輸出：Jan =&gt; Month.Jan , 1
+# Feb =&gt; Month.Feb , 2
+# Mar =&gt; Month.Mar , 3
+# ...
+# Dec =&gt; Month.Dec , 12
+
+# 自定義 member.value
+# 禁止成員名重複
+# @unique
+class Weekday(Enum):
+    Sun = 0
+    Mon = 1
+    Tue = 2
+    Wed = 3
+    Thu = 4
+    Fri = 5
+    Sat = 6
+    Monday = 1 # Mon 的別名，返回 Weekday.Mon
+
+# 訪問枚舉類型
+Weekday.Mon == Weekday['Mon'] == Weekday(1)
+Weekday.Mon.name == 'Mon'
+Weekday.Mon.value == 1 
+
+# type 創建類
+type(classname, (father_class,), dict(methodname=function))
+
+# metaclass 元類
+class ListMetaclass(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['add'] = lambda self, value: self.append(value)
+        return type.__new__(cls, name, bases, attrs) 
+        
+class MyList(list, metaclass=ListMetaclass):
+    pass
+# 通過 ListMetaclass.__new__ 創建：
+# cls =&gt; 類
+# name =&gt; 類名
+# bases =&gt; 父類集合
+# attrs =&gt; 類方法集合 
+```
+!! 錯誤、調試和測試
+```python
+try:
+    # 可能出錯的代碼
+    print('try...')
+    r = 10 / 0
+    print('result:', r)
+except ZeroDivisionError as e:
+    # 錯誤處理代碼，可有多種不同類型錯誤，或直接 Exception 代表所有錯誤
+    print('ZeroDivisionError:', e)
+else:
+    # 無錯誤時執行的代碼
+    print('no error!')
+finally:
+    # 執行完錯誤處理代碼後運行
+    print('finally...')
+
+ import logging
+
+def foo(s):
+    return 10/int(s)
+
+def bar(s):
+    return foo(s) * 2
+
+def main():
+    try:
+        bar('0')
+    except Exception as e:
+        # 打印錯誤後繼續運行
+        logging.exception(e)
+
+main()
+print('END')
+
+# 自定義錯誤
+class FooError(ValueError):
+    pass
+
+# raise FooError('invalid value: %s' % s)
+
+def foo(s):
+    n = int(s)
+    if n==0:
+        raise ValueError('invalid value: %s' % s)
+    return 10 / n
+
+def bar():
+    try:
+        foo('0')
+    except ValueError as e:
+        print('ValueError!')
+        raise
+
+bar() 
+ import logging
+logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.WARNING)
+# logging.basicConfig(level=logging.ERROR)
+
+import pdb
+
+def foo(s):
+    n = int(s)
+    # 断言
+    assert n !=0, 'n is zero!'
+    # 等價於
+    if n == 0:
+        print('n is zero!')
+    # 等同作用
+    print('&gt;&gt;&gt; n = %d' % n)
+    # 等同作用（不抛出錯誤）
+    logging.info('n = %d' % n)
+    # pdb：運行到此行暫停，輸入 `c` 繼續運行
+    pdb.set_trace()
+    return 10/n
+
+# 關閉 assert: python -O foo.py
+# 等同作用的運行（pdb）：
+# $ python -m pdb foo.py
+# 輸入 `l` 查看代碼，輸入 `n` 單步執行代碼，輸入 `p 變量名` 查看變量 
+
+ # 測試驅動開發：TDD（Test-Driven Development）
+# 單元測試
+import unittest
+
+from myinvoke import invoke:
+
+class TestInvoke(unittest.TestCase):
+
+    def test_init(self):
+        self.assertEqual(.., ..)
+        self.assertTrue(...)
+
+    def test_xxxerror(self):
+        with self.assertRaises(errorType)
+            # 會引起該類錯誤的代碼
+
+    # 在調用每個測試方法前 / 後執行
+    def setUp(self):
+        print('setUp...')
+    def tearDown(self):
+        print('tearDown...')
+
+    if __name__ == '__main__':
+        unittest.main()
+    # 可作爲普通脚本運行
+
+    # 不添加多餘行直接測試：
+    # &gt;&gt;&gt; python -m unittest myinvoke_test 
+
+     # doctest
+    def abs(n):
+    '''
+    Function to get absolute value of number.
+    
+    Example:
+    
+    &gt;&gt;&gt; abs(1)
+    1
+    &gt;&gt;&gt; abs(-1)
+    1
+    &gt;&gt;&gt; abs(0)
+    0
+    &gt;&gt;&gt; abs('1')
+    Traceback (most recent call last):
+        ...
+    TypeError: bad operand type for abs(): 'str'
+    '''
+    return n if n &gt;= 0 else (-n) 
+```
+!! IO 編程
+```python
+# -*- coding: utf-8 -*-
+&quot;&quot;&quot;
+原因：速度不匹配
+異步 IO： 回調模式
+          輪詢模式
+同步 IO
+&quot;&quot;&quot;
+try:
+    # 打開文件，返回 file-like Object
+    # StringIO 用作臨時緩衝
+    f = open('/test.txt', 'r', encodeing='UTF-8', errors='ignore')
+    # 讀取内容，read(size) / readline() / readlines()=&gt;返回 list
+    print(f.read())
+finally:
+    # 關閉文件
+    f.close()
+
+# 等價於
+with open('/test.txt', 'r') as f:
+    print(f.read())
+
+# 打開二進制文件（圖片、視頻）
+with open('/map.jpg', 'rb') as f:
+    pass
+
+# 寫文件
+with open('/test.txt', 'w') as f:
+    f.write('Hello, world!')
+
+# 追加至末尾
+with open('/test.txt', 'a') as f:
+    f.write('world!')
+
+# 内存 IO
+# StringIO
+from io import StringIO
+f = StringIO()
+f.write('hello')
+print(f.getvalue())
+
+f = StringIO('hello')
+
+# BytesIO
+from io import BytesIO
+f = BytesIO()
+f.write('中文'.encode('utf-8'))
+print(f.getvalue())
+
+# 等價於
+# 當前指針位置
+f.tell()
+# 定位到最開始
+# 第一個參數：offset，與當 whence 的偏移量
+#             當打開方式為 'b' 時可用負值
+# 第二個參數：whence（可選），0 =&gt; 開頭（缺省值），1 =&gt; 當前位置，2 =&gt; 末尾
+f.seek(0,0)
+f.read()
+
+# 文件和目錄操作
+import os
+os.name # OS 類型：posix =&gt; linux / Unix / Mac OS X；nt =&gt; Windows
+os.uname() # 詳細信息，Windows 不可用
+os.environ # 環境變量
+os.environ.get('key') # 某環境變量
+os.path.abspath('path') # 絕對路徑
+os.path.join('path1', 'path2') # 合成路徑
+os.path.split('path') # 拆分路徑，最後一級分離
+os.path.splitext('/path/file.txt') # 拆分路徑，文件擴展名分離
+os.path.isfile('path')
+os.path.isdir('path')
+os.mkdir('path') # 創建目錄
+os.rmdir('path') # 刪除目錄
+os.listdir('dir')
+os.rename('path1', 'path2')
+os.remove('path')
+
+import shutil
+shutil.copyfile('path1', 'path2')
+
+# 序列化（pickling）
+import pickle
+d = dict(a='1', b='2')
+pickle.dumps(d) # 转为 bytes
+
+```
+!! 備忘錄
+!!! 錯誤類型
+```
+BaseException
+ +-- SystemExit
+ +-- KeyboardInterrupt
+ +-- GeneratorExit
+ +-- Exception
+      +-- StopIteration
+      +-- StopAsyncIteration
+      +-- ArithmeticError
+      |    +-- FloatingPointError
+      |    +-- OverflowError
+      |    +-- ZeroDivisionError
+      +-- AssertionError
+      +-- AttributeError
+      +-- BufferError
+      +-- EOFError
+      +-- ImportError
+      |    +-- ModuleNotFoundError
+      +-- LookupError
+      |    +-- IndexError
+      |    +-- KeyError
+      +-- MemoryError
+      +-- NameError
+      |    +-- UnboundLocalError
+      +-- OSError
+      |    +-- BlockingIOError
+      |    +-- ChildProcessError
+      |    +-- ConnectionError
+      |    |    +-- BrokenPipeError
+      |    |    +-- ConnectionAbortedError
+      |    |    +-- ConnectionRefusedError
+      |    |    +-- ConnectionResetError
+      |    +-- FileExistsError
+      |    +-- FileNotFoundError
+      |    +-- InterruptedError
+      |    +-- IsADirectoryError
+      |    +-- NotADirectoryError
+      |    +-- PermissionError
+      |    +-- ProcessLookupError
+      |    +-- TimeoutError
+      +-- ReferenceError
+      +-- RuntimeError
+      |    +-- NotImplementedError
+      |    +-- RecursionError
+      +-- SyntaxError
+      |    +-- IndentationError
+      |         +-- TabError
+      +-- SystemError
+      +-- TypeError
+      +-- ValueError
+      |    +-- UnicodeError
+      |         +-- UnicodeDecodeError
+      |         +-- UnicodeEncodeError
+      |         +-- UnicodeTranslateError
+      +-- Warning
+           +-- DeprecationWarning
+           +-- PendingDeprecationWarning
+           +-- RuntimeWarning
+           +-- SyntaxWarning
+           +-- UserWarning
+           +-- FutureWarning
+           +-- ImportWarning
+           +-- UnicodeWarning
+           +-- BytesWarning
+           +-- ResourceWarning
+```
+
+!! 參考資料
+* [[Python教程 - 廖雪峰的官方網站|https://www.liaoxuefeng.com/wiki/1016959663602400]]</pre>
 </div>
 <div created="20190817052344795" creator="inchei" modified="20190830224929302" modifier="inchei" tags="comupter" title="TCP / IP">
 <pre>|層數 | OSI 參考模型 | TCP / IP | 概述 | 硬件組成 | TCP /IP 中的軟件實現 |h
