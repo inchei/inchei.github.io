@@ -44,7 +44,7 @@ if __name__=='__main__':
 
 寫完之後，發現效果并不理想：下載速度太慢了。目前還需要再研究一下多綫程的運用，之後再把結果分享出來。
 
-除此之外，順便也寫了一個用於下載貼吧圖片的爬蟲，把圓吧的魔女設定卡片都下載了下來，因爲文件大小較小，所以下載起來清爽了不少。把保存下來的卡片儲存到了[藍奏雲上](https://www.lanzous.com/i9lxnhi)。
+除此之外，順便也寫了一個用於下載貼吧圖片的爬蟲，把圓吧的[魔女設定卡片](https://www.lanzous.com/i9lxnhi)以及 [PSP 版的悲嘆之種](https://www.lanzous.com/i9mv9pg)都下載了下來，因爲文件大小較小，所以下載起來清爽了不少。
 
 ```python
 import os
@@ -55,30 +55,40 @@ import time
 def parser(url):
     return BeautifulSoup(requests.get(url).content, 'html.parser')
 
-def download_img(url):
-    img_list = parser(url).find_all('img', class_='BDE_Image')
+def get_img_list(url):
+    # 獲取一頁上的圖片
+    def get_img(page_url):
+        return parser(page_url).find_all('img', class_='BDE_Image')
+    page = parser(url).find_all('li', class_='l_reply_num')[0].find_all('span')[1].text
+    img_list = []
+    # 獲取每一頁上的圖片
+    for i in range(1, int(page) + 1):
+        img_list += [x for x in get_img(url + '&pn=' + str(i))]
+    return img_list
+
+# 從圖片列表中下載圖片
+def download_img(img_list):
+    n = 0
     for img in img_list:
+        n += 1
         img_url = requests.get(img['src'], stream=True)
-        img_name = os.path.split(img['src'])[1]
-        with open('./' + img_name, 'wb') as f:
+        with open('./' + str(n) + '.jpg', 'wb') as f:
             start = time.time()
             f.write(img_url.content)
             end = time.time()
-            print('%s is downloaded in %s' % (img_name, end - start))
+            print('%s/%s file(s) downloaded in %ss.' % (str(n), len(img_list), end - start))
+    return
+
 
 if __name__=='__main__':
-    # 魔女卡片的帖子鏈接
-    url = 'https://tieba.baidu.com/p/1180021348?see_lz=1'
-    page_container = parser(url).find_all('li', class_='l_reply_num')[0]
-    page = page_container.find_all('span')[1].text
-    for i in range(1, int(page) + 1):
-        urli = url + '&pn=' + str(i)
-        download_img(urli)
-        print('Page %s is done.' % i)
+    # 魔女卡片帖：https://tieba.baidu.com/p/1180021348?see_lz=1
+    # 悲嘆之種帖：https://tieba.baidu.com/p/6393683868?see_lz=1
+    url = input('Input the page url: ')
+    download_img(get_img_list(url))
     print('done.')
 ```
 
-![下載下來的卡片](https://i.loli.net/2020/02/23/IK3pZ916VtjMnHX.png)
+![下載下來的卡片 v0.1](https://i.loli.net/2020/02/23/IK3pZ916VtjMnHX.png)
 
 總而言之，Python 的確是一個寫爬蟲的絕佳工具——曾經嘗試用 Javascript 來下載，感受尤爲明顯。關於爬蟲，計劃還要學習的東西還挺多的：
 
