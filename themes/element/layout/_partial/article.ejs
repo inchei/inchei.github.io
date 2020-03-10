@@ -1,3 +1,4 @@
+<% if (post.cover_url){ %><div class="cover"></div><img class="cover" src="<%= post.cover_url %>" /><% } %>
 <article id="<%= post.layout %>-<%= post.slug %>"
   class="article white-box article-type-<%= post.layout %>"
   itemscope itemprop="blogPost">

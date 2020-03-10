@@ -3,7 +3,7 @@ layout: page
 title: 關於
 navlevel: header
 ---
-孤兒。<span class="heimu">JK。</span>
+孤兒。
 
 并不在繁體使用地區，繁體的原因是繁體好看，但是微軟自帶的輸入法繁體功能較弱，可能有部分沒有矯正為正確的格式，望指出。
 
@@ -14,6 +14,7 @@ navlevel: header
 * 修復 zooming 的功能。
 * 啓用宋體 webfont。
 * 製作一個 hexo 的 SPA 模板。
+
 ### 其他
 * 對博客評論系統的表情插件，支持貼吧、S1、bangumi、Acfun 等表情的導入。
 * 類 GitHub 格子插件，支持 MediaWiki，自助添加更新規則。
