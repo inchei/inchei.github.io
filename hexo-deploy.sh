@@ -4,10 +4,12 @@ then
 fi
 git add .
 git commit -m "$1"
-git push
+git push origin
+git push github
 git switch master
 cp -r ./public/* ./blog/
 git add .
 git commit -m "$1"
-git push
+git push origin
+git push github
 git switch basic
