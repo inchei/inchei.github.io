@@ -6,64 +6,33 @@ $(function() {
     });*/
 
     //Set the background
-    var random = Math.floor(Math.random() * 13);
+    var random = Math.floor(Math.random() * 8);
 
-    function checkWebp() {
-        try {
-            return (document.createElement('canvas').toDataURL('image/webp').indexOf('data:image/webp') == 0);
-        } catch (err) {
-            return false;
-        }
-    }
-
-    function setbg(type) {
-        switch (random) {
-            case 0:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg01.' + type);
-                break;
-            case 1:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg02.' + type);
-                break;
-            case 2:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg03.' + type);
-                break;
-            case 3:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg04.' + type);
-                break;
-            case 4:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg05.' + type);
-                break;
-            case 5:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg06.' + type);
-                break;
-            case 6:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg07.' + type);
-                break;
-            case 7:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg08.' + type);
-                break;
-            case 8:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg09.' + type);
-                break;
-            case 9:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg10.' + type);
-                break;
-            case 10:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg11.' + type);
-                break;
-            case 11:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg12.' + type);
-                break;
-            case 12:
-                $('.bg').attr('data-ibg-bg', 'assets/img/bg13.' + type);
-                break;
-        }
-    }
-
-    if (checkWebp()) {
-        setbg(type = 'webp');
-    } else {
-        setbg(type = 'jpg');
+    switch (random) {
+        case 0:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YUSMj.jpg');
+            break;
+        case 1:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YNxzQ.jpg');
+            break;
+        case 2:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YNvRg.jpg');
+            break;
+        case 3:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YNLIf.jpg');
+            break;
+        case 4:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YNXi8.jpg');
+            break;
+        case 5:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YUpss.jpg');
+            break;
+        case 6:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YUPZq.jpg');
+            break;
+        case 7:
+            $('.bg').attr('data-ibg-bg', 'https://s1.ax1x.com/2020/03/16/8YUFoV.jpg');
+            break;
     }
 
     $(".bg").interactive_bg({
