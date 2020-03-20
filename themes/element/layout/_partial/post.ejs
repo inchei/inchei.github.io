@@ -1,9 +1,9 @@
-<li class="post-item grid-item">
+<li class="post-item grid-item" <% if (post.cover_url){ %>style="background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(<%= post.cover_url %>) no-repeat 0% 20%/ cover;"<% } %>>
 	<a class="post-link" href="<%- url_for(post.path) %>">
 		<h3 class="post-title"><%= post.title %></h3>
 	  <div class="post-meta">
 	    <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
-	      <%= date(post.date, 'MD.YY') %>
+			<%= dateLunar(date(post.date)) %>
 	    </time>
 	  </div>
   </a>

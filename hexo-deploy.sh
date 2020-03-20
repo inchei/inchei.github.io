@@ -1,7 +1,3 @@
-if  [ $2 == "g" ]
-then
-    hexo g
-fi
 git add .
 git commit -m "$1"
 git push origin
