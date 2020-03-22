@@ -3,7 +3,6 @@ layout: post
 title: 長安行
 date: 2017-12-23
 tags: 學校
-cover_url: https://inchei.github.io/assets/img/Lantern_in_Changan.jpg
 ---
 ## 天才
 「我吃蘋果不説話。」

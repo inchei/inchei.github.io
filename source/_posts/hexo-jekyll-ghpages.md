@@ -6,7 +6,6 @@ tags:
     - 瞎折騰
     - 網站
 toc: true
-cover_url: https://inchei.github.io/assets/img/jekyll-hexo.png
 ---
 ## 前言
 <aside>實際上我害怕 WordPress 是在害怕沒錢支持服務器，等到初中瞭解了本地服務器後立馬試了一番。</aside>
