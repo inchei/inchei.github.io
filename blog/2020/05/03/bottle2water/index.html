@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>空瓶换水问题的递归解法 › 伢子集</title>
+  <title>空瓶換水問題的遞歸解法 › 伢子集</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在学校憋了三个星期，数学课上想到了这个经典问题。虽未习算法，深觉此为练习递归之机，就在草稿纸上摸了起来。上次干这种事，还是初三上学期期末考的时候瞎编的干支纪年算法，只是当时我年轻地忘记了干支纪年是跟着农历来的。回家誊写并修改一番，或许这个问题太简单了，然而对于无门系统学习的我来说，想出题目并自己解决还是很有意思的。 空瓶换水的问题，我想到了两种。一种是已知所需瓶数求最少买几瓶，一种是已知手头空瓶求">
+  <meta name="description" content="在學校憋了三個星期，數學課上想到了這個經典問題。雖未習算法，深覺此為練習遞歸之機，就在草稿紙上摸了起來。上次幹這種事，還是初三上學期期末考的時候瞎編的干支紀年算法，只是當時我年輕地忘記了干支紀年是跟着農曆來的。回家謄寫並修改一番，或許這個問題太簡單了，然而對於無門系統學習的我來説，想出題目並自己解決還是很有意思的。 空瓶換水的問題，我想到了兩種。一種是已知所需瓶數求最少買幾瓶，一種是已知手頭空瓶求">
 <meta property="og:type" content="article">
-<meta property="og:title" content="空瓶换水问题的递归解法">
+<meta property="og:title" content="空瓶換水問題的遞歸解法">
 <meta property="og:url" content="https://inchei.github.io/2020/05/03/bottle2water/index.html">
 <meta property="og:site_name" content="伢子集">
-<meta property="og:description" content="在学校憋了三个星期，数学课上想到了这个经典问题。虽未习算法，深觉此为练习递归之机，就在草稿纸上摸了起来。上次干这种事，还是初三上学期期末考的时候瞎编的干支纪年算法，只是当时我年轻地忘记了干支纪年是跟着农历来的。回家誊写并修改一番，或许这个问题太简单了，然而对于无门系统学习的我来说，想出题目并自己解决还是很有意思的。 空瓶换水的问题，我想到了两种。一种是已知所需瓶数求最少买几瓶，一种是已知手头空瓶求">
+<meta property="og:description" content="在學校憋了三個星期，數學課上想到了這個經典問題。雖未習算法，深覺此為練習遞歸之機，就在草稿紙上摸了起來。上次幹這種事，還是初三上學期期末考的時候瞎編的干支紀年算法，只是當時我年輕地忘記了干支紀年是跟着農曆來的。回家謄寫並修改一番，或許這個問題太簡單了，然而對於無門系統學習的我來説，想出題目並自己解決還是很有意思的。 空瓶換水的問題，我想到了兩種。一種是已知所需瓶數求最少買幾瓶，一種是已知手頭空瓶求">
 <meta property="article:published_time" content="2020-05-02T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-05-03T03:26:29.526Z">
+<meta property="article:modified_time" content="2020-05-03T06:10:01.411Z">
 <meta property="article:author" content="茵陳">
-<meta property="article:tag" content="瞎折腾">
+<meta property="article:tag" content="瞎折騰">
 <meta property="article:tag" content="算法">
 <meta name="twitter:card" content="summary">
   
@@ -68,7 +68,7 @@
         伢
       </span>
     
-      <span class="w">
+      <span class="b">
         子
       </span>
     
@@ -95,14 +95,14 @@
 
   <header class="article-header">
     <h1 class="article-title" itemprop="name">
-      空瓶换水问题的递归解法
+      空瓶換水問題的遞歸解法
     </h1>
     <div class="article-meta">
       <time class="article-time" datetime="2020-05-02T16:00:00.000Z" itemprop="datePublished">
         庚子年四月十一
       </time><!---
       
-      ，更新於  <time class="article-time" datetime="2020-05-03T03:26:29.526Z" itemprop="dateUpdated">
+      ，更新於  <time class="article-time" datetime="2020-05-03T06:10:01.411Z" itemprop="dateUpdated">
           May 3, 2020
       </time>
       -->
@@ -110,24 +110,24 @@
   </header>
 
   <div class="article-entry" itemprop="articleBody">
-    <p>在学校憋了三个星期，数学课上想到了这个经典问题。虽未习算法，深觉此为练习递归之机，就在草稿纸上摸了起来。上次干这种事，还是初三上学期期末考的时候瞎编的干支纪年算法，只是当时我年轻地忘记了干支纪年是跟着农历来的。回家誊写并修改一番，或许这个问题太简单了，然而对于无门系统学习的我来说，想出题目并自己解决还是很有意思的。</p>
-<p>空瓶换水的问题，我想到了两种。一种是<strong>已知所需瓶数求最少买几瓶</strong>，一种是<strong>已知手头空瓶求最多换几瓶</strong>。用递归方法解决，首先思考递归函数的输入变量。在第一种问题中，不断改变所需水，第二种则是改变手头空瓶。这样一来，解决这两个问题实在简单。</p>
-<p>不过，有一点我是靠着做过这个小学数学题才能想起来的，即当手头空瓶数差一瓶为兑换所需瓶数时，可以借一瓶喝掉再换一瓶还回去。</p>
-<h2 id="已知所需瓶数求最少买几瓶"><a href="#已知所需瓶数求最少买几瓶" class="headerlink" title="已知所需瓶数求最少买几瓶"></a>已知所需瓶数求最少买几瓶</h2><p>学校里打的草稿：</p>
+    <p>在學校憋了三個星期，數學課上想到了這個經典問題。雖未習算法，深覺此為練習遞歸之機，就在草稿紙上摸了起來。上次幹這種事，還是初三上學期期末考的時候瞎編的干支紀年算法，只是當時我年輕地忘記了干支紀年是跟着農曆來的。回家謄寫並修改一番，或許這個問題太簡單了，然而對於無門系統學習的我來説，想出題目並自己解決還是很有意思的。</p>
+<p>空瓶換水的問題，我想到了兩種。一種是<strong>已知所需瓶數求最少買幾瓶</strong>，一種是<strong>已知手頭空瓶求最多換幾瓶</strong>。用遞歸方法解決，首先思考遞歸函數的輸入變量。在第一種問題中，不斷改變所需水，第二種則是改變手頭空瓶。這樣一來，解決這兩個問題實在簡單。</p>
+<p>不過，有一點我是靠着做過這個小學數學題才能想起來的，即當手頭空瓶數差一瓶為兑換所需瓶數時，可以借一瓶喝掉再換一瓶還回去。</p>
+<h2 id="已知所需瓶數求最少買幾瓶"><a href="#已知所需瓶數求最少買幾瓶" class="headerlink" title="已知所需瓶數求最少買幾瓶"></a>已知所需瓶數求最少買幾瓶</h2><p>學校裏打的草稿：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bottle2waterA</span><span class="params">(target, key=<span class="number">3</span>, bought=<span class="number">0</span>, exchanged=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> target &gt; <span class="number">0</span>:</span><br><span class="line">        bought += <span class="number">1</span></span><br><span class="line">        target -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">if</span> (bought-exchanged*key)%key == <span class="number">0</span> <span class="keyword">or</span> bought == key - <span class="number">1</span>:</span><br><span class="line">            exchanged += <span class="number">1</span></span><br><span class="line">            target -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> bottle2waterA(target, key, bought, exchanged)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> bought</span><br></pre></td></tr></table></figure>
-<p>不同于第二个问题，这里的 <code>exchanged</code> 和 <code>bought</code> 都被我拿来当条件了，不清楚如何再简化。</p>
-<h2 id="已知手头空瓶求最多换几瓶"><a href="#已知手头空瓶求最多换几瓶" class="headerlink" title="已知手头空瓶求最多换几瓶"></a>已知手头空瓶求最多换几瓶</h2><p>学校里打的草稿：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bottle2waterB</span><span class="params">(bottle, key=<span class="number">3</span>, exchanged=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> bottle &gt;= key:</span><br><span class="line">        exchanged += bottle // key</span><br><span class="line">        bottle = bottle % key + bottle // key</span><br><span class="line">        <span class="keyword">return</span> bottle2waterB(bottle, key, exchanged)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> bottle == key - <span class="number">1</span>:</span><br><span class="line">            bottle = <span class="number">0</span> <span class="comment"># 光是求解的话这一行可以删掉</span></span><br><span class="line">            exchanged += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> exchanged</span><br></pre></td></tr></table></figure>
-<p>由于变量 <code>exchanged</code> 在函数中只起到输出的作用，对于函数功能没有影响，可以简化一下：</p>
+<p>不同於第二個問題，這裏的 <code>exchanged</code> 和 <code>bought</code> 都被我拿來當條件了，不清楚如何再簡化。</p>
+<h2 id="已知手頭空瓶求最多換幾瓶"><a href="#已知手頭空瓶求最多換幾瓶" class="headerlink" title="已知手頭空瓶求最多換幾瓶"></a>已知手頭空瓶求最多換幾瓶</h2><p>學校裏打的草稿：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bottle2waterB</span><span class="params">(bottle, key=<span class="number">3</span>, exchanged=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> bottle &gt;= key:</span><br><span class="line">        exchanged += bottle // key</span><br><span class="line">        bottle = bottle % key + bottle // key</span><br><span class="line">        <span class="keyword">return</span> bottle2waterB(bottle, key, exchanged)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> bottle == key - <span class="number">1</span>:</span><br><span class="line">            bottle = <span class="number">0</span> <span class="comment"># 光是求解的話這一行可以刪掉</span></span><br><span class="line">            exchanged += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> exchanged</span><br></pre></td></tr></table></figure>
+<p>由於變量 <code>exchanged</code> 在函數中只起到輸出的作用，對於函數功能沒有影響，可以簡化一下：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bottle2waterC</span><span class="params">(bottle, key=<span class="number">3</span>)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> bottle &lt; key:</span><br><span class="line">        <span class="keyword">if</span> bottle == key - <span class="number">1</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> bottle2waterC(bottle % key + bottle // key) + bottle // key</span><br></pre></td></tr></table></figure>
-<p>这个简化同时也说明了对于递归算法，<strong>应当优先考虑不借助中间变量</strong>。下次再写递归，第一句上 <code>return</code> 好了。</p>
-<h2 id="瓶盖也上了"><a href="#瓶盖也上了" class="headerlink" title="瓶盖也上了"></a>瓶盖也上了</h2><p>在网上搜索一下，果然这个问题也是常见的一道算法题。而很多版本中，不仅是瓶子可以换水，瓶盖也可以换水。这种情况下，第一种问题由于在空瓶数差一瓶等于兑换所需空瓶数后仍要继续进行，直接添加一个条件是不可以的。虽然最后也写了出来，不过与递归无关，还长得不太好看，找到更好的方法前暂且还是不放上来了。</p>
+<p>這個簡化同時也説明了對於遞歸算法，<strong>應當優先考慮不借助中間變量</strong>。下次再寫遞歸，第一句上 <code>return</code> 好了。</p>
+<h2 id="瓶蓋也上了"><a href="#瓶蓋也上了" class="headerlink" title="瓶蓋也上了"></a>瓶蓋也上了</h2><p>在網上搜索一下，果然這個問題也是常見的一道算法題。而很多版本中，不僅是瓶子可以換水，瓶蓋也可以換水。這種情況下，第一種問題由於在空瓶數差一瓶等於兑換所需空瓶數後仍要繼續進行，直接添加一個條件是不可以的。雖然最後也寫了出來，不過與遞歸無關，還長得不太好看，找到更好的方法前暫且還是不放上來了。</p>
 
   </div>
   
   <div class="article-tags">
     
-      <a class="tag-link" href="/blog/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/" rel="tag">瞎折腾</a><a class="tag-link" href="/blog/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a>
+      <a class="tag-link" href="/blog/tags/%E7%9E%8E%E6%8A%98%E9%A8%B0/" rel="tag">瞎折騰</a><a class="tag-link" href="/blog/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a>
     
   </div>
 
