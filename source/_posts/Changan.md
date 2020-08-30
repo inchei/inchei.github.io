@@ -3,6 +3,7 @@ layout: post
 title: 長安行
 date: 2017-12-23
 tags: 學校
+cover_url: https://i.loli.net/2020/08/30/BTcuLn6OyAQUp8q.jpg
 ---
 ## 天才
 「我吃蘋果不説話。」
