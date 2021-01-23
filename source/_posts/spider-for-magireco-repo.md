@@ -2,6 +2,7 @@
 layout: post
 title: 爬蟲試水：自動下載《魔法速報》及其他
 date: 2020-02-23
+updated: 2020-02-23
 tags:
     - 瞎折騰
     - Python

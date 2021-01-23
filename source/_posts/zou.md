@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-11-18
+updated: 2017-11-18
 title: 阿鄒
 tags:
     - 小説

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2018-08-18
+updated: 2018-08-18
 title: 三頭犬
 tags: 小説
 ---

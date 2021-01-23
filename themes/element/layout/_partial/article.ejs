@@ -10,12 +10,12 @@
     <div class="article-meta">
       <time class="article-time" datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
         <%= dateLunar(date(post.date)) %>
-      </time><!---
-      <% if (post.updated){ %>
-      ，更新於  <time class="article-time" datetime="<%= date_xml(post.updated) %>" itemprop="dateUpdated">
-          <%= date(post.updated, "MMM D, YYYY") %>
       </time>
-      <% } %>-->
+      <% if (post.updated){ %>
+      ，最后更新於<time class="article-time" datetime="<%= date_xml(post.updated) %>" itemprop="dateUpdated">
+        <%= dateLunar(date(post.updated)) %>
+      </time>
+      <% } %>
     </div>
   </header>
 

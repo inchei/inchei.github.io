@@ -2,6 +2,7 @@
 layout: post
 title: 於是又一個所謂 JK 誕生了
 date: 2019-06-20
+updated: 2019-06-20
 tags:
     - 學校
     - 雜文

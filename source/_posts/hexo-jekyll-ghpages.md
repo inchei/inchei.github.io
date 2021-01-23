@@ -2,6 +2,7 @@
 layout: post
 title: 單倉庫設置 hexo 和 Jekyll 在 gh-pages 子頁面下
 date: 2018-07-01
+updated: 2018-07-01
 tags:
     - 瞎折騰
     - 網站

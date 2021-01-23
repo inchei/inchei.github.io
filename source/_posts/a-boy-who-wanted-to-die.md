@@ -2,6 +2,7 @@
 layout: post
 title: 一個想要去死的少年
 date: 2019-10-06
+updated: 2019-10-06
 tags: 小説
 ---
 > 我愛少年氣，非常愛。

@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2017-11-17
+updated: 2017-11-17
 title: 卓安比
 tags:
     - 小説

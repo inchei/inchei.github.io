@@ -2,6 +2,7 @@
 layout: post
 title: 再見動畫片
 date: 2019-10-03
+updated: 2019-10-03
 tags: 雜文
 ---
 
