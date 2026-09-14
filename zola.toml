@@ -1,6 +1,6 @@
-base_url = "https://inchei.github.io/"
-title = "ici"
-description = "ici"
+base_url = "https://iccci.cc.cd"
+title = "牙子集"
+description = "心智發育失敗者"
 default_language = "zh"
 
 compile_sass = false
