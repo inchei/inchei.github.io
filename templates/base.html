@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="color-scheme" content="light dark">
+{% if page is defined %}
+<title>{{ page.title }} - 牙子集</title>
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+{% elif section is defined and section.title and section.path != "/" %}
+<title>{{ section.title }} - 牙子集</title>
+{% if section.description %}<meta name="description" content="{{ section.description }}">{% endif %}
+{% else %}
+<title>牙子集</title>
+{% if config.description %}<meta name="description" content="{{ config.description }}">{% endif %}
+{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) }}">
+<link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicon.svg', trailing_slash=false) }}">
+<link rel="alternate" type="application/atom+xml" href="{{ get_url(path='atom.xml', trailing_slash=false) }}" title="RSS">
+<script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(e){}</script>
+</head>
+<body>
+<header>
+{% block header %}{% endblock %}
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer>
+<details>
+<summary>Links</summary>
+<ul>
+{% for link in config.extra.links %}
+<li><a href="{{ link.url }}" target="_blank">{{ link.name }}</a> — {{ link.description }}</li>
+{% endfor %}
+</ul>
+</details>
+<p>&copy; {{ config.extra.author }} <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">CC BY-NC-SA 4.0</a> <a href="{{ get_url(path='atom.xml', trailing_slash=false) }}">RSS</a> <label class="switch"><input type="checkbox" id="theme-toggle"><span></span><em id="theme-label">深色</em></label></p>
+</footer>
+{% block scripts %}{% endblock %}
+<script defer src="{{ get_url(path='theme.js', trailing_slash=false) }}"></script>
+</body>
+</html>

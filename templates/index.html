@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block header %}
+<h1 class="a11y">牙子集</h1>
+<p class="logo" aria-hidden="true">{% include "logo.html" %}</p>
+{% endblock %}
+{% block content %}
+<div id="memos"></div>
+{% set memos_pool = load_data(url="https://memos.iccci.cc.cd/api/v1/memos?pageSize=100&filter=tag%20in%20%5B%27%E5%9B%BE%27%5D", format="json") %}
+{% if memos_pool.memos %}
+<template id="memos-pool">
+{% for memo in memos_pool.memos %}
+{% for attachment in memo.attachments %}
+{% if attachment.type | truncate(length=6, end="") == "image/" %}
+<a href="https://memos.iccci.cc.cd/{{ memo.name }}" target="_blank"><img src="https://memos.iccci.cc.cd/file/{{ attachment.name }}/{{ attachment.filename }}" alt="" loading="lazy"></a>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</template>
+{% endif %}
+<ul class="archive">
+{% set blog = get_section(path="blog/_index.md") %}
+{% for page in blog.pages %}
+<li><time datetime="{{ page.date }}">{{ page.date }}</time> <a href="{{ page.permalink }}">{{ page.title }}</a>{% if page.extra.subtitle %} <span class="subtitle">{{ page.extra.subtitle }}</span>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endblock %}
+{% block scripts %}
+<script defer src="{{ get_url(path='memos.js', trailing_slash=false) }}"></script>
+{% endblock %}

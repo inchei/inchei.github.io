@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block header %}
+<p class="logo"><a href="{{ get_url(path='@/_index.md') }}">{% include "logo.html" %}</a></p>
+{% if page.extra.cover %}
+<div class="cover">
+<img class="cover" src="{{ page.extra.cover | safe }}" alt="">
+</div>
+{% endif %}
+{% endblock %}
+{% block content %}
+<article>
+<h1>{{ page.title }}{% if page.extra.subtitle %}<br><span class="subtitle">{{ page.extra.subtitle }}</span>{% endif %}</h1>
+<p><time datetime="{{ page.date }}">{{ page.date }}</time></p>
+{{ page.content | safe }}
+<p><a href="{{ get_url(path='@/_index.md') }}">~</a></p>
+</article>
+{% endblock %}
+{% block scripts %}
+<script defer src="{{ get_url(path='zoom.js', trailing_slash=false) }}"></script>
+{% endblock %}

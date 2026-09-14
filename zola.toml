@@ -1,0 +1,35 @@
+base_url = "https://inchei.github.io/"
+title = "ici"
+description = "ici"
+default_language = "zh"
+
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+generate_sitemap = true
+generate_robots_txt = true
+minify_html = false
+
+[markdown]
+smart_punctuation = false
+external_links_target_blank = true
+
+[markdown.highlighting]
+style = "inline"
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[slugify]
+paths = "on"
+
+[extra]
+author = "ici"
+links = [
+  { name = "釘子", url = "http://dimchen.com", description = "很久沒有動靜的北郵大佬" },
+  { name = "Ttsuxx", url = "https://ttsuxx.cc", description = "大我一屆的可愛班友" },
+  { name = "Chatseeon的小世界", url = "https://csworldlet.top", description = "一位班友" },
+  { name = "洛雪のCat", url = "https://blog.sayhi.moe/", description = "写一点自己的东西！" },
+  { name = "雲霞", url = "http://kumokasumi.lofter.com/", description = "车万人，萌百行政員" },
+  { name = "中国吹學院", url = "https://hibikilogy.github.io", description = "京吹學報" },
+]

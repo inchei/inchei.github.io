@@ -1,0 +1,28 @@
+name: Lint JS
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  oxlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install oxlint 1.82.0
+        run: |
+          curl -sSL https://github.com/oxc-project/oxc/releases/download/apps_v1.82.0/oxlint-x86_64-unknown-linux-gnu.tar.gz -o /tmp/oxlint.tar.gz
+          mkdir -p /tmp/oxlint
+          tar xzf /tmp/oxlint.tar.gz -C /tmp/oxlint
+          sudo mv /tmp/oxlint/oxlint-x86_64-unknown-linux-gnu /usr/local/bin/oxlint
+          oxlint --version
+
+      - name: Lint
+        run: oxlint static scripts --ignore-pattern '*.min.js' --format=github
