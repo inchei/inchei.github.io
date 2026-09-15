@@ -1,7 +1,7 @@
 +++
 title = "黃段子、太空漫遊和巴比倫"
 date = 2024-11-16
-updated = 2025-6-23
+updated = 2025-06-23
 [extra]
 subtitle = "到巴比倫需要多少光年"
 +++
