@@ -29,6 +29,7 @@ links = [
   { name = "釘子", url = "http://dimchen.com", description = "很久沒有動靜的北郵大佬" },
   { name = "Ttsuxx", url = "https://ttsuxx.cc", description = "大我一屆的可愛班友" },
   { name = "Lain is writing", url = "https://lain.today", description = "班友有關幻想的一切" },
+  { name = "北河天文台", url = "https://pediastrum.com", description = "白葱天文台" },
   { name = "Chatseeon的小世界", url = "https://csworldlet.top", description = "班友" },
   { name = "洛雪のCat", url = "https://blog.sayhi.moe/", description = "写一点自己的东西！" },
   { name = "雲霞", url = "http://kumokasumi.lofter.com/", description = "车万人，萌百行政員" },
